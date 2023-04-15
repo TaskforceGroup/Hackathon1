@@ -1,0 +1,1001 @@
+message_id,send_date,send_time,platform,viewed,content,sender_id,receiver_id
+1,2023-03-28,22:07:24,Slack,1,LOL,201,78
+2,2023-03-17,02:10:40,SnapChat,0,Good job at work today!,943,245
+3,2023-01-19,18:10:27,SnapChat,0,Where is the butter again?,328,640
+4,2023-02-23,10:02:31,SnapChat,0,I'm thinking about you :),686,235
+5,2023-03-18,04:47:33,Slack,1,OMG!,901,508
+6,2023-03-28,08:16:09,Discord,1,OMG!,565,977
+7,2023-03-14,07:35:09,SnapChat,0,5 days to go!,220,494
+8,2023-04-01,00:02:16,SnapChat,0,How are you??,915,425
+9,2023-01-07,05:37:22,WhatsApp,1,I hate this app.,271,597
+10,2023-01-12,14:03:29,WhatsApp,1,Good job at work today!,217,475
+11,2023-01-27,06:36:29,SnapChat,1,5 days to go!,758,616
+12,2023-02-01,17:59:42,SnapChat,1,Why are you so rude?,218,521
+13,2023-03-14,06:08:44,Messenger,1,I hate this app.,415,162
+14,2023-02-22,07:54:11,Discord,1,Could you pick up some milk on your way home?,991,280
+15,2023-03-18,14:30:47,SnapChat,1,OMG!,40,758
+16,2023-02-01,06:20:54,Discord,0,LMAO!,986,23
+17,2023-02-01,00:22:01,Messenger,0,LOL,831,333
+18,2023-03-04,04:57:02,Discord,0,Where is the butter again?,911,906
+19,2023-02-16,08:38:54,Slack,0,Could you pick up some milk on your way home?,93,830
+20,2023-03-07,03:59:46,SnapChat,1,"Hey girl, what's cooking?",341,831
+21,2023-01-26,04:52:25,Discord,0,Hey!,783,95
+22,2023-01-19,22:16:16,Slack,0,Could you pick up some milk on your way home?,607,670
+23,2023-01-15,00:35:26,Slack,0,5 days to go!,882,666
+24,2023-01-22,10:30:30,SnapChat,0,Hey!,470,303
+25,2023-02-15,17:44:39,SnapChat,0,Could you pick up some milk on your way home?,333,62
+26,2023-01-15,23:05:01,Discord,1,Good luck on the interview!,437,693
+27,2023-03-29,12:16:48,Discord,0,Good luck on the interview!,88,886
+28,2023-01-24,13:50:58,SnapChat,0,LMAO!,651,956
+29,2023-01-27,05:27:33,Discord,0,Why are you so rude?,339,403
+30,2023-03-11,13:28:28,WhatsApp,1,5 days to go!,445,29
+31,2023-03-30,06:17:32,Slack,1,ROLF,464,437
+32,2023-02-02,09:02:34,Discord,1,I love you!,243,618
+33,2023-03-02,07:28:11,Slack,1,I hate this app.,408,441
+34,2023-04-01,11:50:01,Discord,0,LMAO!,797,581
+35,2023-01-17,04:37:17,Messenger,1,ROLF,670,636
+36,2023-02-25,08:03:18,Messenger,1,LMAO!,635,359
+37,2023-01-24,23:33:34,Slack,0,Why are you so rude?,866,111
+38,2023-03-02,14:40:09,Discord,1,OMG!,444,868
+39,2023-01-19,13:37:47,WhatsApp,1,OMG!,819,961
+40,2023-01-14,22:45:48,Discord,1,I love you!,904,687
+41,2023-01-16,21:18:02,SnapChat,1,What's up?,549,416
+42,2023-03-03,13:33:17,Discord,1,ROLF,607,969
+43,2023-01-03,15:48:01,Slack,0,Hey!,4,621
+44,2023-01-02,13:30:15,Discord,1,I love you!,496,634
+45,2023-03-22,02:34:27,WhatsApp,1,LOL,572,501
+46,2023-01-20,13:32:13,Messenger,0,5 days to go!,564,917
+47,2023-04-01,15:47:10,WhatsApp,0,I hate this app.,205,479
+48,2023-01-24,07:11:56,WhatsApp,1,LMAO!,913,988
+49,2023-03-25,14:08:18,Messenger,0,Could you pick up some milk on your way home?,922,960
+50,2023-03-26,06:07:03,Discord,1,OMG!,745,720
+51,2023-02-12,03:46:26,SnapChat,1,The kids are at school rn…,809,883
+52,2023-02-20,12:34:11,Messenger,0,Why are you so rude?,890,273
+53,2023-02-02,08:14:00,Messenger,1,Sup bro?,952,984
+54,2023-02-24,22:22:09,WhatsApp,1,OMG!,164,888
+55,2023-02-11,15:20:58,SnapChat,1,How are you??,440,492
+56,2023-02-09,02:20:07,Messenger,1,I'm thinking about you :),533,709
+57,2023-03-17,05:57:35,Slack,1,Be careful!,667,724
+58,2023-02-07,09:19:41,WhatsApp,0,Good luck on the interview!,359,565
+59,2023-01-22,15:20:34,SnapChat,1,Be careful!,101,737
+60,2023-02-25,06:37:33,WhatsApp,0,"Hey girl, what's cooking?",78,126
+61,2023-02-02,06:17:30,Slack,1,Good job at work today!,908,722
+62,2023-03-06,17:12:43,WhatsApp,0,5 days to go!,801,146
+63,2023-02-03,17:41:44,Messenger,1,The kids are at school rn…,551,861
+64,2023-02-27,23:49:37,SnapChat,1,Good luck on the interview!,315,846
+65,2023-01-15,05:35:37,Slack,0,How are you??,798,893
+66,2023-03-13,02:43:09,WhatsApp,1,The kids are at school rn…,678,106
+67,2023-02-20,01:40:01,Slack,0,I hate this app.,631,943
+68,2023-03-27,01:35:56,WhatsApp,1,OMG!,405,582
+69,2023-03-10,06:48:15,WhatsApp,1,Be careful!,23,316
+70,2023-03-23,18:44:36,Messenger,1,Be careful!,221,889
+71,2023-01-06,15:25:51,Messenger,1,Good job at work today!,486,783
+72,2023-02-20,21:40:02,Discord,0,Could you pick up some milk on your way home?,807,46
+73,2023-02-28,22:08:36,WhatsApp,1,5 days to go!,110,823
+74,2023-01-26,04:40:53,WhatsApp,1,The kids are at school rn…,316,596
+75,2023-01-30,20:12:48,WhatsApp,0,Why are you so rude?,21,844
+76,2023-01-06,14:37:28,Messenger,1,I love you!,283,128
+77,2023-01-04,23:31:35,WhatsApp,0,LMAO!,98,440
+78,2023-03-16,06:28:40,WhatsApp,1,Why are you so rude?,573,734
+79,2023-01-10,05:04:05,Slack,1,The dog got stuck on the roof again…,553,169
+80,2023-03-27,22:36:17,WhatsApp,0,LMAO!,341,308
+81,2023-02-17,06:55:20,Discord,0,LMAO!,28,951
+82,2023-02-14,21:42:40,SnapChat,1,I hate this app.,30,807
+83,2023-03-19,09:32:51,Messenger,1,Sup bro?,577,493
+84,2023-01-15,14:02:40,Slack,1,ROLF,882,169
+85,2023-01-23,13:22:25,Slack,1,OMG!,387,201
+86,2023-02-23,06:44:11,Messenger,1,LMAO!,172,643
+87,2023-02-18,17:50:10,SnapChat,1,LOL,703,696
+88,2023-03-03,03:37:06,Slack,0,5 days to go!,908,971
+89,2023-03-15,04:46:10,Messenger,1,Hey!,455,487
+90,2023-03-30,11:33:46,Messenger,1,LMAO!,762,499
+91,2023-02-04,16:44:39,WhatsApp,0,Hey!,81,158
+92,2023-03-30,16:59:20,SnapChat,0,What's up?,643,405
+93,2023-01-29,21:18:05,Discord,1,Good luck on the interview!,500,141
+94,2023-01-30,15:26:04,SnapChat,0,OMG!,69,919
+95,2023-03-12,02:40:28,Discord,1,"Hey girl, what's cooking?",427,904
+96,2023-03-30,08:34:17,Discord,1,Sup bro?,779,94
+97,2023-02-28,21:43:54,WhatsApp,0,Sup bro?,295,966
+98,2023-02-16,01:48:11,Discord,0,LMAO!,123,253
+99,2023-03-24,19:29:47,Messenger,1,I hate this app.,489,703
+100,2023-01-01,19:22:57,WhatsApp,0,How are you??,138,674
+101,2023-03-07,18:42:28,Discord,0,The kids are at school rn…,639,999
+102,2023-03-22,13:25:32,Discord,1,Could you pick up some milk on your way home?,837,887
+103,2023-03-19,05:02:47,SnapChat,1,I love you!,444,698
+104,2023-03-23,22:51:57,WhatsApp,1,"Hey girl, what's cooking?",653,557
+105,2023-02-02,08:21:39,SnapChat,1,LOL,962,892
+106,2023-02-03,17:36:14,Discord,0,5 days to go!,631,467
+107,2023-01-17,02:39:07,Slack,0,LOL,102,656
+108,2023-03-08,13:22:53,Messenger,1,I hate this app.,667,8
+109,2023-01-12,08:25:55,WhatsApp,0,The dog got stuck on the roof again…,672,928
+110,2023-01-18,12:47:41,SnapChat,0,Good job at work today!,984,826
+111,2023-03-14,09:46:00,SnapChat,0,I hate this app.,675,985
+112,2023-01-01,18:32:05,Discord,1,Hey!,328,489
+113,2023-02-19,02:23:55,WhatsApp,1,I love you!,385,48
+114,2023-01-01,16:40:40,WhatsApp,0,I'm thinking about you :),375,963
+115,2023-03-10,01:01:35,SnapChat,1,ROLF,551,783
+116,2023-01-26,16:01:51,SnapChat,0,OMG!,177,96
+117,2023-03-16,19:43:54,Discord,1,I love you!,623,230
+118,2023-03-11,10:42:28,WhatsApp,0,ROLF,916,571
+119,2023-01-10,21:34:44,Slack,0,The kids are at school rn…,846,855
+120,2023-01-11,19:51:40,Discord,1,I'm thinking about you :),933,52
+121,2023-01-15,18:38:54,SnapChat,0,Hey!,180,66
+122,2023-01-24,23:50:25,Slack,0,Be careful!,726,451
+123,2023-01-15,16:35:12,SnapChat,0,Could you pick up some milk on your way home?,672,901
+124,2023-01-27,17:30:33,WhatsApp,1,Be careful!,528,277
+125,2023-01-03,04:54:29,Discord,0,The kids are at school rn…,516,793
+126,2023-03-19,19:09:02,Messenger,1,OMG!,54,932
+127,2023-03-05,02:16:21,SnapChat,0,Good job at work today!,408,527
+128,2023-01-29,16:56:03,Slack,1,Could you pick up some milk on your way home?,224,592
+129,2023-01-24,04:17:23,Discord,1,OMG!,855,88
+130,2023-02-24,21:09:39,Discord,0,Good job at work today!,772,551
+131,2023-02-23,08:41:06,SnapChat,1,LMAO!,686,111
+132,2023-01-30,23:52:26,Slack,1,Could you pick up some milk on your way home?,141,771
+133,2023-03-24,21:45:18,Messenger,1,OMG!,210,540
+134,2023-03-08,03:29:25,Slack,1,LOL,698,820
+135,2023-03-17,09:54:24,SnapChat,0,LOL,283,29
+136,2023-03-08,22:57:57,Discord,0,Good job at work today!,413,51
+137,2023-01-31,19:56:45,Slack,1,OMG!,629,781
+138,2023-01-01,21:36:45,SnapChat,1,OMG!,586,774
+139,2023-03-18,19:52:48,Messenger,1,Hey!,830,585
+140,2023-02-18,21:53:20,SnapChat,1,I hate this app.,925,535
+141,2023-01-15,06:28:51,WhatsApp,0,Where is the butter again?,185,687
+142,2023-01-24,10:50:08,SnapChat,1,Why are you so rude?,893,95
+143,2023-01-30,16:38:41,SnapChat,1,I hate this app.,273,439
+144,2023-03-13,12:29:42,WhatsApp,1,Could you pick up some milk on your way home?,831,984
+145,2023-02-03,20:42:20,SnapChat,0,How are you??,340,535
+146,2023-01-05,00:02:13,SnapChat,1,Where is the butter again?,879,80
+147,2023-03-11,04:11:00,WhatsApp,1,Sup bro?,294,919
+148,2023-01-17,14:41:24,Slack,0,I love you!,772,921
+149,2023-03-12,21:09:55,SnapChat,0,I hate this app.,283,355
+150,2023-01-05,01:43:20,SnapChat,1,I'm thinking about you :),639,23
+151,2023-01-18,21:23:49,SnapChat,1,The dog got stuck on the roof again…,477,237
+152,2023-01-14,07:07:30,SnapChat,1,The kids are at school rn…,345,570
+153,2023-01-24,23:39:01,Slack,0,LOL,393,245
+154,2023-03-22,02:20:10,Slack,1,LOL,213,455
+155,2023-02-27,18:52:34,Messenger,0,Could you pick up some milk on your way home?,316,723
+156,2023-03-30,05:47:30,SnapChat,1,LMAO!,848,559
+157,2023-02-07,14:35:26,Messenger,1,Why are you so rude?,941,998
+158,2023-03-12,15:51:55,WhatsApp,0,Hey!,734,256
+159,2023-01-04,13:15:41,Discord,0,LMAO!,501,592
+160,2023-01-17,19:15:15,Messenger,0,I love you!,830,524
+161,2023-02-06,03:17:18,WhatsApp,1,What's up?,622,855
+162,2023-02-20,13:06:58,Discord,0,I'm thinking about you :),848,399
+163,2023-01-09,12:01:17,WhatsApp,0,I hate this app.,537,618
+164,2023-03-25,17:00:41,Discord,0,I'm thinking about you :),547,369
+165,2023-02-19,00:52:28,Discord,1,The kids are at school rn…,563,55
+166,2023-03-06,08:46:17,SnapChat,0,I'm thinking about you :),964,78
+167,2023-03-13,13:46:23,SnapChat,1,I love you!,328,667
+168,2023-01-31,05:22:54,WhatsApp,1,5 days to go!,830,612
+169,2023-02-13,08:12:50,Discord,0,5 days to go!,906,906
+170,2023-02-24,00:28:14,Messenger,1,Where is the butter again?,287,779
+171,2023-02-11,00:16:57,Slack,0,"Hey girl, what's cooking?",508,449
+172,2023-01-07,18:07:06,Discord,1,I hate this app.,23,617
+173,2023-03-23,09:29:19,Messenger,0,Why are you so rude?,787,772
+174,2023-03-30,11:01:14,WhatsApp,0,"Hey girl, what's cooking?",177,618
+175,2023-02-07,04:29:41,Slack,1,I'm thinking about you :),414,740
+176,2023-03-10,19:02:27,Slack,0,Why are you so rude?,837,815
+177,2023-03-31,23:49:28,SnapChat,0,Could you pick up some milk on your way home?,651,477
+178,2023-04-01,14:51:02,Discord,0,Where is the butter again?,728,36
+179,2023-01-19,14:26:54,WhatsApp,1,Be careful!,990,177
+180,2023-04-01,05:30:38,WhatsApp,0,Sup bro?,821,123
+181,2023-03-15,23:25:51,Slack,0,Could you pick up some milk on your way home?,182,497
+182,2023-03-21,16:09:53,Slack,0,Could you pick up some milk on your way home?,706,724
+183,2023-02-17,13:38:01,WhatsApp,0,How are you??,778,447
+184,2023-01-01,14:33:40,Discord,1,Be careful!,228,475
+185,2023-02-13,21:40:57,Discord,1,Hey!,473,200
+186,2023-03-13,20:47:24,Messenger,1,Sup bro?,119,338
+187,2023-01-09,05:57:52,WhatsApp,1,Hey!,584,384
+188,2023-03-07,16:23:14,Discord,1,Where is the butter again?,988,586
+189,2023-01-05,16:56:55,Slack,1,Could you pick up some milk on your way home?,562,75
+190,2023-01-20,21:08:16,Slack,1,LOL,520,408
+191,2023-01-30,01:00:12,Slack,0,I love you!,643,756
+192,2023-02-28,03:20:16,WhatsApp,1,Be careful!,988,328
+193,2023-04-01,01:55:05,SnapChat,1,"Hey girl, what's cooking?",418,36
+194,2023-01-08,02:13:40,Discord,1,I love you!,926,399
+195,2023-03-30,23:15:36,Discord,0,OMG!,672,109
+196,2023-02-07,20:33:06,Slack,1,I hate this app.,734,220
+197,2023-01-17,03:40:58,Discord,1,What's up?,93,399
+198,2023-03-19,09:04:58,Slack,1,The kids are at school rn…,36,839
+199,2023-01-04,18:28:02,WhatsApp,0,"Hey girl, what's cooking?",450,415
+200,2023-02-24,23:06:05,Discord,1,5 days to go!,295,270
+201,2023-03-17,01:30:58,SnapChat,1,The kids are at school rn…,837,924
+202,2023-02-14,09:45:26,SnapChat,0,Where is the butter again?,342,966
+203,2023-02-02,20:28:06,SnapChat,1,Good luck on the interview!,341,994
+204,2023-02-12,12:01:46,Messenger,1,I'm thinking about you :),158,779
+205,2023-02-09,13:38:38,Discord,1,LOL,303,387
+206,2023-02-27,21:23:13,Discord,1,Good job at work today!,310,771
+207,2023-03-29,17:21:40,WhatsApp,1,5 days to go!,240,555
+208,2023-03-05,01:11:21,Discord,0,5 days to go!,675,437
+209,2023-02-26,23:06:31,Messenger,0,Where is the butter again?,435,663
+210,2023-02-18,11:17:54,SnapChat,0,Why are you so rude?,207,908
+211,2023-03-04,21:47:29,WhatsApp,1,Good luck on the interview!,983,89
+212,2023-01-28,20:59:07,Slack,0,Good job at work today!,256,177
+213,2023-03-20,07:53:24,WhatsApp,1,LOL,792,894
+214,2023-03-18,02:17:22,Discord,0,Where is the butter again?,995,233
+215,2023-01-05,09:13:18,SnapChat,0,ROLF,532,23
+216,2023-01-09,12:27:59,Messenger,1,LOL,754,845
+217,2023-03-10,13:10:42,Slack,0,Good job at work today!,218,645
+218,2023-03-18,11:33:12,WhatsApp,0,Good luck on the interview!,160,281
+219,2023-02-18,11:09:51,Discord,0,Sup bro?,923,502
+220,2023-02-14,09:05:41,Slack,0,OMG!,440,486
+221,2023-02-26,20:39:51,SnapChat,1,I'm thinking about you :),621,906
+222,2023-02-14,05:26:54,WhatsApp,0,Good job at work today!,783,887
+223,2023-02-21,14:53:34,Slack,0,The kids are at school rn…,793,497
+224,2023-01-04,10:44:37,Slack,0,OMG!,375,285
+225,2023-01-18,14:16:51,Slack,1,LOL,631,484
+226,2023-01-27,06:39:15,Messenger,0,Good job at work today!,346,470
+227,2023-01-10,17:35:54,WhatsApp,1,I love you!,202,347
+228,2023-01-24,23:07:35,WhatsApp,1,Good luck on the interview!,720,934
+229,2023-03-20,11:02:13,Messenger,0,Where is the butter again?,437,564
+230,2023-02-25,06:58:03,WhatsApp,1,I'm thinking about you :),210,413
+231,2023-03-12,14:29:14,Discord,0,Be careful!,666,430
+232,2023-03-05,09:29:10,SnapChat,0,Good luck on the interview!,960,571
+233,2023-01-27,04:01:50,WhatsApp,0,LOL,500,740
+234,2023-02-09,00:58:52,WhatsApp,0,Good job at work today!,475,48
+235,2023-02-21,18:18:16,Messenger,0,The kids are at school rn…,557,846
+236,2023-02-11,23:37:35,SnapChat,0,What's up?,889,984
+237,2023-02-07,14:11:31,Slack,1,Why are you so rude?,118,464
+238,2023-01-23,18:16:24,Messenger,1,How are you??,652,223
+239,2023-02-17,18:50:29,SnapChat,0,The kids are at school rn…,357,461
+240,2023-03-03,19:54:29,WhatsApp,0,Why are you so rude?,164,228
+241,2023-03-08,21:05:44,Messenger,0,Good job at work today!,433,547
+242,2023-02-22,02:57:56,Messenger,1,Could you pick up some milk on your way home?,416,384
+243,2023-03-18,20:26:05,Discord,1,Why are you so rude?,941,848
+244,2023-01-09,22:31:01,WhatsApp,0,I hate this app.,676,749
+245,2023-01-11,01:22:59,Messenger,0,I hate this app.,245,582
+246,2023-02-14,14:58:21,SnapChat,0,LMAO!,357,679
+247,2023-01-12,11:13:09,Discord,1,I'm thinking about you :),174,477
+248,2023-02-10,09:44:38,WhatsApp,0,5 days to go!,36,754
+249,2023-03-30,11:45:09,Slack,1,How are you??,698,76
+250,2023-02-17,02:55:15,Slack,1,How are you??,977,395
+251,2023-03-31,19:15:15,Slack,0,I hate this app.,56,342
+252,2023-01-30,08:26:24,WhatsApp,1,I hate this app.,200,216
+253,2023-01-03,13:00:33,Discord,1,Good job at work today!,891,726
+254,2023-01-10,17:13:54,Slack,0,Could you pick up some milk on your way home?,399,949
+255,2023-03-02,04:37:04,Slack,1,Could you pick up some milk on your way home?,223,715
+256,2023-03-04,18:06:57,SnapChat,0,OMG!,807,181
+257,2023-02-03,18:00:40,Messenger,0,LMAO!,748,644
+258,2023-02-07,21:20:44,SnapChat,1,How are you??,645,384
+259,2023-02-21,22:23:07,Discord,0,What's up?,48,81
+260,2023-01-12,14:38:45,SnapChat,1,5 days to go!,97,883
+261,2023-01-26,07:03:38,Messenger,1,I love you!,424,584
+262,2023-02-23,00:59:29,Discord,1,I hate this app.,422,731
+263,2023-01-21,19:32:16,WhatsApp,0,LOL,645,878
+264,2023-01-02,23:49:02,WhatsApp,0,LMAO!,479,596
+265,2023-02-06,08:55:01,Slack,1,Where is the butter again?,243,309
+266,2023-01-07,10:12:14,Discord,0,How are you??,499,870
+267,2023-01-27,09:06:31,Messenger,0,The dog got stuck on the roof again…,442,513
+268,2023-02-05,10:36:53,SnapChat,1,Sup bro?,627,869
+269,2023-03-27,05:24:15,Slack,0,"Hey girl, what's cooking?",923,78
+270,2023-03-21,01:12:03,Messenger,1,Hey!,878,114
+271,2023-02-15,16:47:50,Slack,1,What's up?,247,202
+272,2023-03-30,23:48:06,SnapChat,0,I hate this app.,781,553
+273,2023-01-20,07:46:00,SnapChat,0,I'm thinking about you :),748,221
+274,2023-02-28,15:14:37,WhatsApp,0,How are you??,921,625
+275,2023-02-22,08:42:24,SnapChat,0,The kids are at school rn…,810,540
+276,2023-01-12,23:05:27,Messenger,0,The dog got stuck on the roof again…,347,655
+277,2023-01-07,05:42:34,SnapChat,1,How are you??,477,876
+278,2023-02-20,23:43:43,SnapChat,0,Why are you so rude?,650,449
+279,2023-02-05,03:02:34,Slack,1,Why are you so rude?,113,177
+280,2023-01-18,15:22:09,Discord,0,Sup bro?,76,669
+281,2023-01-14,10:11:53,Discord,1,I love you!,566,218
+282,2023-01-12,07:41:51,Messenger,1,The dog got stuck on the roof again…,894,705
+283,2023-02-04,13:03:29,Messenger,1,I hate this app.,484,471
+284,2023-03-30,08:22:30,SnapChat,0,ROLF,441,342
+285,2023-03-11,08:40:32,WhatsApp,1,"Hey girl, what's cooking?",695,384
+286,2023-02-15,23:41:44,Slack,1,LOL,377,697
+287,2023-02-28,21:34:40,WhatsApp,0,Hey!,934,592
+288,2023-01-10,04:40:19,Messenger,0,Be careful!,303,584
+289,2023-01-18,01:44:23,WhatsApp,0,5 days to go!,109,948
+290,2023-02-24,08:55:38,WhatsApp,1,OMG!,23,948
+291,2023-03-08,09:42:40,Slack,0,I love you!,342,780
+292,2023-03-30,10:24:00,Messenger,0,LOL,235,93
+293,2023-01-14,05:41:29,SnapChat,1,LOL,652,51
+294,2023-02-05,06:59:47,Slack,0,5 days to go!,123,886
+295,2023-02-19,21:20:29,SnapChat,0,Could you pick up some milk on your way home?,359,357
+296,2023-02-16,03:26:56,WhatsApp,0,Sup bro?,908,395
+297,2023-03-10,14:43:44,WhatsApp,0,Good luck on the interview!,23,612
+298,2023-01-14,06:17:38,WhatsApp,0,The dog got stuck on the roof again…,818,497
+299,2023-03-04,11:30:13,WhatsApp,1,What's up?,395,663
+300,2023-03-08,03:47:20,Slack,1,5 days to go!,925,369
+301,2023-01-02,04:56:58,SnapChat,0,What's up?,834,772
+302,2023-02-28,14:50:16,Messenger,0,Hey!,415,42
+303,2023-01-23,02:44:32,Slack,0,Hey!,861,753
+304,2023-01-12,13:44:09,SnapChat,0,How are you??,47,354
+305,2023-03-21,19:02:50,Slack,0,I love you!,427,878
+306,2023-03-12,06:27:12,Discord,1,The kids are at school rn…,194,464
+307,2023-01-05,19:17:50,Slack,0,I love you!,393,301
+308,2023-03-03,10:00:17,Discord,0,OMG!,777,566
+309,2023-01-12,05:42:02,Messenger,1,Hey!,335,676
+310,2023-02-08,15:53:31,Discord,0,Good job at work today!,496,597
+311,2023-02-02,21:18:37,Messenger,0,Hey!,631,630
+312,2023-03-22,03:23:34,Discord,0,Hey!,176,797
+313,2023-01-05,07:38:28,Discord,0,The dog got stuck on the roof again…,591,101
+314,2023-03-29,02:53:52,SnapChat,1,ROLF,801,246
+315,2023-01-06,12:01:56,Slack,1,I love you!,23,729
+316,2023-02-12,09:39:44,Discord,0,The kids are at school rn…,71,138
+317,2023-01-27,22:01:29,Discord,1,Be careful!,354,722
+318,2023-02-11,20:20:52,Discord,1,I'm thinking about you :),639,816
+319,2023-03-30,07:47:31,Slack,1,Hey!,57,449
+320,2023-02-03,22:52:53,WhatsApp,0,5 days to go!,273,347
+321,2023-02-10,06:29:24,Slack,1,The dog got stuck on the roof again…,352,569
+322,2023-03-30,08:53:28,WhatsApp,0,Good luck on the interview!,371,243
+323,2023-03-24,06:27:37,Discord,0,The kids are at school rn…,921,506
+324,2023-02-04,07:22:06,Discord,0,Why are you so rude?,660,714
+325,2023-01-02,20:35:43,Discord,0,The dog got stuck on the roof again…,570,741
+326,2023-03-20,00:36:06,SnapChat,0,I love you!,827,271
+327,2023-01-27,21:17:01,WhatsApp,1,Could you pick up some milk on your way home?,650,245
+328,2023-03-07,21:31:26,WhatsApp,1,ROLF,542,479
+329,2023-03-18,11:30:47,Discord,0,Why are you so rude?,794,454
+330,2023-03-24,05:51:40,SnapChat,1,I'm thinking about you :),779,48
+331,2023-01-01,08:42:25,WhatsApp,1,I'm thinking about you :),565,221
+332,2023-02-06,22:44:08,WhatsApp,0,The dog got stuck on the roof again…,793,617
+333,2023-01-13,07:49:25,Slack,0,I'm thinking about you :),202,440
+334,2023-02-17,03:08:10,Slack,1,What's up?,893,932
+335,2023-01-24,14:54:18,Slack,1,Could you pick up some milk on your way home?,934,378
+336,2023-03-20,09:48:37,Discord,0,I hate this app.,974,913
+337,2023-03-11,16:06:08,SnapChat,1,LMAO!,309,974
+338,2023-02-12,12:34:12,Discord,0,Good luck on the interview!,93,888
+339,2023-03-15,11:50:58,Slack,1,The dog got stuck on the roof again…,913,703
+340,2023-02-20,23:24:04,Discord,1,"Hey girl, what's cooking?",9,513
+341,2023-01-27,22:27:42,Messenger,0,What's up?,924,999
+342,2023-01-28,10:49:35,SnapChat,0,Where is the butter again?,43,169
+343,2023-03-12,14:56:17,Slack,0,Could you pick up some milk on your way home?,527,519
+344,2023-01-08,13:26:08,SnapChat,1,Could you pick up some milk on your way home?,781,970
+345,2023-01-13,03:59:45,WhatsApp,0,LMAO!,123,835
+346,2023-01-07,17:00:45,SnapChat,0,I love you!,18,201
+347,2023-02-22,21:41:52,Messenger,1,Good job at work today!,138,176
+348,2023-03-03,12:27:05,SnapChat,0,Hey!,8,475
+349,2023-03-10,01:40:21,Slack,1,I hate this app.,964,437
+350,2023-01-28,21:07:02,Discord,0,Good luck on the interview!,685,60
+351,2023-01-18,14:52:44,SnapChat,1,The dog got stuck on the roof again…,962,482
+352,2023-02-15,05:31:03,Slack,1,I hate this app.,28,528
+353,2023-03-23,13:58:41,SnapChat,1,I hate this app.,355,714
+354,2023-01-05,07:38:36,WhatsApp,1,"Hey girl, what's cooking?",401,294
+355,2023-03-12,16:24:43,WhatsApp,1,How are you??,864,440
+356,2023-02-28,05:26:47,Slack,0,Where is the butter again?,888,734
+357,2023-01-30,01:22:02,Discord,1,I hate this app.,243,722
+358,2023-02-12,06:51:47,Discord,0,The kids are at school rn…,243,393
+359,2023-02-11,06:36:40,WhatsApp,1,The kids are at school rn…,30,251
+360,2023-01-20,01:25:26,WhatsApp,1,The dog got stuck on the roof again…,270,451
+361,2023-02-24,09:21:55,WhatsApp,1,Why are you so rude?,973,506
+362,2023-02-08,04:32:21,Slack,1,The kids are at school rn…,729,892
+363,2023-01-17,09:18:55,Discord,0,Where is the butter again?,922,364
+364,2023-01-07,20:03:13,SnapChat,0,I hate this app.,240,493
+365,2023-02-08,13:08:10,Discord,1,Why are you so rude?,573,719
+366,2023-03-31,00:13:46,WhatsApp,1,OMG!,262,993
+367,2023-03-19,04:07:45,WhatsApp,0,LMAO!,125,525
+368,2023-02-14,05:44:19,WhatsApp,0,ROLF,555,864
+369,2023-03-04,23:11:34,Messenger,1,The dog got stuck on the roof again…,198,472
+370,2023-01-06,00:31:41,Discord,1,What's up?,447,844
+371,2023-03-13,05:40:07,SnapChat,0,"Hey girl, what's cooking?",239,577
+372,2023-01-07,00:04:51,WhatsApp,1,I'm thinking about you :),909,535
+373,2023-01-05,17:06:58,SnapChat,0,I love you!,622,734
+374,2023-03-19,08:55:36,Messenger,1,The dog got stuck on the roof again…,28,338
+375,2023-02-23,01:25:15,Slack,1,LMAO!,706,472
+376,2023-01-14,10:29:49,WhatsApp,0,Where is the butter again?,563,2
+377,2023-03-28,15:01:57,Messenger,1,I love you!,592,114
+378,2023-03-01,10:10:07,Discord,1,Good job at work today!,371,378
+379,2023-02-25,18:05:18,Messenger,1,How are you??,119,618
+380,2023-02-23,00:41:51,Discord,0,Where is the butter again?,772,473
+381,2023-03-21,11:37:13,Discord,0,LOL,215,42
+382,2023-01-13,20:34:46,Slack,1,How are you??,155,488
+383,2023-03-12,08:03:07,Slack,1,Hey!,696,734
+384,2023-02-02,16:51:08,Slack,1,Good luck on the interview!,418,913
+385,2023-01-04,09:35:20,WhatsApp,1,Where is the butter again?,646,441
+386,2023-02-13,13:12:25,Messenger,0,5 days to go!,921,30
+387,2023-01-09,03:11:04,Messenger,1,OMG!,501,948
+388,2023-03-02,15:04:02,Messenger,1,Could you pick up some milk on your way home?,320,354
+389,2023-03-12,18:08:13,WhatsApp,0,OMG!,174,866
+390,2023-01-31,01:49:28,SnapChat,1,Where is the butter again?,544,517
+391,2023-04-01,04:26:34,Slack,1,ROLF,915,553
+392,2023-02-28,06:46:16,Discord,0,Could you pick up some milk on your way home?,685,294
+393,2023-03-05,19:57:58,SnapChat,1,What's up?,48,339
+394,2023-02-08,09:30:30,Slack,1,Hey!,801,123
+395,2023-02-02,07:16:11,WhatsApp,0,Hey!,823,809
+396,2023-03-05,23:08:53,SnapChat,0,How are you??,535,669
+397,2023-01-16,12:29:40,WhatsApp,0,What's up?,899,696
+398,2023-02-14,02:11:48,Discord,1,5 days to go!,339,111
+399,2023-02-26,04:03:31,Discord,1,LOL,84,737
+400,2023-01-30,10:31:44,SnapChat,1,Could you pick up some milk on your way home?,377,96
+401,2023-01-09,14:42:59,Messenger,0,The dog got stuck on the roof again…,835,220
+402,2023-02-19,13:38:35,Discord,0,Be careful!,920,401
+403,2023-02-08,15:22:11,Messenger,1,Where is the butter again?,137,143
+404,2023-01-11,16:15:24,SnapChat,1,Good luck on the interview!,441,316
+405,2023-01-30,21:51:44,Slack,1,Hey!,308,627
+406,2023-03-18,19:05:47,WhatsApp,0,ROLF,434,657
+407,2023-03-23,16:56:16,SnapChat,0,Be careful!,941,408
+408,2023-02-18,14:07:43,Discord,1,LOL,89,620
+409,2023-02-17,21:04:01,SnapChat,0,Sup bro?,439,683
+410,2023-03-23,20:27:00,Messenger,0,"Hey girl, what's cooking?",223,450
+411,2023-01-10,03:50:29,WhatsApp,0,Good job at work today!,684,666
+412,2023-02-23,13:51:42,Discord,0,Hey!,967,902
+413,2023-01-24,16:56:32,WhatsApp,0,Good job at work today!,746,831
+414,2023-02-17,09:43:04,Slack,1,Be careful!,730,520
+415,2023-01-30,01:25:50,Discord,0,5 days to go!,667,487
+416,2023-03-11,11:11:15,WhatsApp,0,What's up?,482,315
+417,2023-01-22,21:15:11,Slack,1,I hate this app.,889,720
+418,2023-02-25,10:46:04,Discord,0,5 days to go!,870,818
+419,2023-02-14,23:28:11,WhatsApp,1,I'm thinking about you :),846,378
+420,2023-02-23,08:56:37,Slack,0,5 days to go!,244,224
+421,2023-03-08,21:32:08,Messenger,1,Good job at work today!,110,315
+422,2023-02-12,15:59:25,Messenger,0,Could you pick up some milk on your way home?,48,141
+423,2023-02-05,10:11:28,Slack,1,Sup bro?,196,31
+424,2023-03-14,23:26:25,Discord,1,Be careful!,820,879
+425,2023-02-15,15:35:13,Slack,0,Good luck on the interview!,767,772
+426,2023-03-10,00:00:46,Slack,0,5 days to go!,616,89
+427,2023-02-10,15:37:30,WhatsApp,0,I hate this app.,289,402
+428,2023-02-24,22:23:23,SnapChat,0,Why are you so rude?,741,408
+429,2023-03-05,23:06:05,Discord,1,OMG!,128,982
+430,2023-03-25,03:13:38,Messenger,0,I'm thinking about you :),854,737
+431,2023-03-09,01:27:51,SnapChat,1,5 days to go!,894,96
+432,2023-01-25,19:11:15,Discord,1,OMG!,999,89
+433,2023-01-08,00:44:26,WhatsApp,1,Where is the butter again?,991,345
+434,2023-04-01,16:15:12,WhatsApp,1,What's up?,355,971
+435,2023-02-25,11:59:14,Messenger,0,What's up?,454,106
+436,2023-02-27,05:49:10,Discord,0,Sup bro?,146,341
+437,2023-03-04,08:51:04,WhatsApp,1,5 days to go!,666,220
+438,2023-03-18,04:18:17,Discord,0,Good job at work today!,834,25
+439,2023-03-11,00:36:50,Slack,1,I'm thinking about you :),839,969
+440,2023-01-12,14:57:25,Slack,1,The kids are at school rn…,971,449
+441,2023-01-26,11:56:07,SnapChat,0,Hey!,338,456
+442,2023-02-12,22:16:47,Messenger,0,Hey!,600,982
+443,2023-03-31,13:01:44,WhatsApp,1,The kids are at school rn…,931,544
+444,2023-02-02,11:40:01,Slack,0,OMG!,97,915
+445,2023-01-08,00:11:14,WhatsApp,0,Sup bro?,630,565
+446,2023-02-11,23:35:31,SnapChat,0,LMAO!,196,114
+447,2023-02-13,19:36:10,Discord,1,Good job at work today!,829,667
+448,2023-02-17,20:56:58,Discord,1,The dog got stuck on the roof again…,83,655
+449,2023-02-13,10:20:09,Messenger,1,I'm thinking about you :),715,983
+450,2023-03-26,21:41:47,Slack,0,The dog got stuck on the roof again…,82,935
+451,2023-03-31,14:53:57,SnapChat,1,Good luck on the interview!,896,882
+452,2023-03-14,18:07:45,Messenger,0,LMAO!,279,134
+453,2023-02-24,16:53:42,Discord,1,Hey!,640,982
+454,2023-01-12,12:27:43,Discord,0,I'm thinking about you :),771,55
+455,2023-01-24,18:28:06,SnapChat,1,ROLF,98,720
+456,2023-01-23,03:17:05,SnapChat,1,LOL,468,280
+457,2023-01-14,17:48:50,WhatsApp,0,The dog got stuck on the roof again…,470,399
+458,2023-03-09,08:34:30,Slack,1,ROLF,954,200
+459,2023-02-23,16:08:50,Messenger,1,Why are you so rude?,442,661
+460,2023-01-12,15:51:21,WhatsApp,0,The dog got stuck on the roof again…,894,425
+461,2023-03-05,00:05:22,Slack,1,What's up?,216,970
+462,2023-02-13,07:07:57,Messenger,1,Good job at work today!,834,667
+463,2023-02-24,11:08:04,WhatsApp,0,The kids are at school rn…,893,113
+464,2023-02-06,15:24:04,Slack,0,ROLF,488,357
+465,2023-03-03,02:33:34,WhatsApp,0,LMAO!,908,759
+466,2023-03-18,06:20:04,SnapChat,1,Good luck on the interview!,451,335
+467,2023-02-26,07:34:18,Discord,0,The kids are at school rn…,430,245
+468,2023-01-30,05:38:01,Messenger,1,The kids are at school rn…,30,999
+469,2023-02-09,21:37:20,Messenger,1,The dog got stuck on the roof again…,187,378
+470,2023-02-26,06:32:19,SnapChat,1,Why are you so rude?,540,695
+471,2023-01-24,06:40:18,Discord,1,5 days to go!,19,928
+472,2023-03-19,23:25:26,Discord,1,Good job at work today!,51,946
+473,2023-01-06,01:53:08,Slack,1,The kids are at school rn…,670,954
+474,2023-03-11,23:17:22,SnapChat,0,What's up?,333,728
+475,2023-03-07,15:29:42,SnapChat,0,How are you??,201,176
+476,2023-02-01,23:44:24,Discord,0,OMG!,80,663
+477,2023-02-04,05:30:45,Messenger,0,Good job at work today!,714,750
+478,2023-03-29,00:15:33,Messenger,1,I'm thinking about you :),198,498
+479,2023-01-17,05:58:45,WhatsApp,1,LMAO!,359,598
+480,2023-03-15,17:22:08,WhatsApp,1,Where is the butter again?,601,627
+481,2023-02-19,01:31:41,SnapChat,1,5 days to go!,66,952
+482,2023-03-13,21:06:30,SnapChat,0,5 days to go!,199,394
+483,2023-02-05,11:22:48,Slack,0,Hey!,29,672
+484,2023-03-21,07:31:00,Discord,1,LOL,221,57
+485,2023-01-03,08:19:05,SnapChat,0,I love you!,612,921
+486,2023-03-22,07:18:33,Slack,1,5 days to go!,805,690
+487,2023-02-01,11:41:12,Messenger,1,Sup bro?,434,694
+488,2023-02-04,01:44:34,SnapChat,0,5 days to go!,869,483
+489,2023-03-02,13:12:48,Messenger,1,Could you pick up some milk on your way home?,190,726
+490,2023-02-03,02:48:28,Messenger,1,ROLF,746,746
+491,2023-03-24,03:50:18,SnapChat,1,Could you pick up some milk on your way home?,498,4
+492,2023-02-13,04:10:43,Discord,1,5 days to go!,869,96
+493,2023-02-19,22:57:55,SnapChat,1,Where is the butter again?,652,48
+494,2023-01-31,18:43:38,WhatsApp,1,I'm thinking about you :),346,339
+495,2023-02-20,15:47:19,Slack,1,How are you??,202,801
+496,2023-01-02,21:17:53,Slack,1,Good job at work today!,383,879
+497,2023-01-27,04:22:00,SnapChat,1,The kids are at school rn…,58,146
+498,2023-02-13,07:13:31,SnapChat,0,"Hey girl, what's cooking?",180,198
+499,2023-03-22,15:56:25,Discord,0,Be careful!,320,592
+500,2023-02-14,19:56:04,Messenger,1,The dog got stuck on the roof again…,528,793
+501,2023-01-15,01:26:57,SnapChat,1,How are you??,557,572
+502,2023-03-21,19:32:38,Slack,1,The kids are at school rn…,874,993
+503,2023-03-29,06:35:03,WhatsApp,0,The kids are at school rn…,916,316
+504,2023-03-07,21:54:22,Discord,1,LOL,387,938
+505,2023-03-05,10:07:21,SnapChat,0,LMAO!,390,830
+506,2023-01-20,05:24:41,Slack,0,Good job at work today!,818,801
+507,2023-03-27,14:50:43,Discord,1,Where is the butter again?,888,784
+508,2023-01-06,11:24:30,Messenger,1,LMAO!,892,62
+509,2023-03-18,01:29:35,Messenger,1,I love you!,289,640
+510,2023-03-13,08:44:39,Discord,0,I hate this app.,581,66
+511,2023-03-16,11:55:28,WhatsApp,0,ROLF,951,956
+512,2023-03-26,01:29:55,WhatsApp,0,ROLF,496,443
+513,2023-03-10,20:59:07,WhatsApp,1,OMG!,926,54
+514,2023-03-14,19:41:57,Messenger,0,ROLF,542,661
+515,2023-02-28,04:45:07,WhatsApp,0,The dog got stuck on the roof again…,798,542
+516,2023-02-23,02:01:06,Discord,0,"Hey girl, what's cooking?",604,882
+517,2023-03-16,22:05:32,Discord,0,Good luck on the interview!,385,555
+518,2023-01-12,15:23:58,Discord,0,Hey!,256,207
+519,2023-01-27,11:41:40,WhatsApp,1,LMAO!,54,669
+520,2023-03-30,22:32:21,Discord,0,The kids are at school rn…,483,908
+521,2023-02-27,18:08:57,SnapChat,0,I love you!,826,439
+522,2023-03-04,20:35:49,Messenger,0,"Hey girl, what's cooking?",415,787
+523,2023-02-19,21:06:02,Slack,0,The dog got stuck on the roof again…,762,75
+524,2023-03-19,17:01:56,WhatsApp,0,ROLF,346,364
+525,2023-02-03,23:49:38,Messenger,0,Be careful!,283,601
+526,2023-01-02,02:15:52,Messenger,0,Good job at work today!,402,84
+527,2023-01-11,14:49:08,SnapChat,0,I'm thinking about you :),917,889
+528,2023-01-29,02:24:20,WhatsApp,1,Could you pick up some milk on your way home?,706,83
+529,2023-03-23,06:12:26,Messenger,0,I love you!,967,787
+530,2023-03-01,10:37:39,Messenger,1,Could you pick up some milk on your way home?,383,805
+531,2023-03-21,02:55:39,Slack,1,LMAO!,384,200
+532,2023-03-12,18:14:35,Slack,0,I'm thinking about you :),278,443
+533,2023-03-10,06:03:52,SnapChat,1,Why are you so rude?,488,902
+534,2023-02-09,23:41:02,Messenger,1,Be careful!,207,492
+535,2023-01-30,04:32:57,Slack,1,Sup bro?,670,663
+536,2023-03-26,02:45:17,WhatsApp,0,Where is the butter again?,771,956
+537,2023-03-22,04:57:34,Slack,1,LOL,380,40
+538,2023-02-04,22:01:14,Slack,0,How are you??,423,919
+539,2023-03-27,21:06:06,WhatsApp,1,Why are you so rude?,581,672
+540,2023-03-26,10:45:03,SnapChat,0,Why are you so rude?,998,963
+541,2023-01-17,03:57:12,SnapChat,0,The kids are at school rn…,251,753
+542,2023-02-23,00:11:14,WhatsApp,1,Good job at work today!,868,894
+543,2023-02-05,01:15:00,WhatsApp,1,ROLF,964,493
+544,2023-01-31,02:27:21,SnapChat,0,Good job at work today!,454,126
+545,2023-03-26,06:45:16,WhatsApp,0,OMG!,359,182
+546,2023-01-10,00:53:07,WhatsApp,0,Hey!,705,687
+547,2023-01-10,18:34:50,Slack,1,I love you!,78,809
+548,2023-03-04,16:00:22,WhatsApp,0,Sup bro?,819,320
+549,2023-03-18,11:07:46,Slack,1,I'm thinking about you :),200,758
+550,2023-02-06,10:47:01,SnapChat,0,How are you??,801,423
+551,2023-02-04,07:19:58,WhatsApp,1,The kids are at school rn…,196,399
+552,2023-01-25,07:13:43,WhatsApp,1,I'm thinking about you :),31,383
+553,2023-04-01,04:30:25,WhatsApp,0,Hey!,596,85
+554,2023-01-19,04:39:28,Messenger,1,Why are you so rude?,230,652
+555,2023-03-28,00:54:05,WhatsApp,1,I love you!,428,982
+556,2023-02-08,19:14:47,SnapChat,1,Where is the butter again?,582,958
+557,2023-02-05,06:14:45,SnapChat,1,LOL,698,544
+558,2023-01-29,10:13:30,Messenger,1,Could you pick up some milk on your way home?,357,845
+559,2023-01-10,23:06:43,Messenger,1,The dog got stuck on the roof again…,705,244
+560,2023-03-04,19:37:35,Slack,0,"Hey girl, what's cooking?",964,94
+561,2023-01-31,06:12:04,SnapChat,0,ROLF,938,394
+562,2023-02-19,13:52:25,Messenger,0,Good luck on the interview!,408,357
+563,2023-02-06,23:14:15,Discord,1,ROLF,345,993
+564,2023-03-11,23:41:17,Messenger,0,"Hey girl, what's cooking?",846,36
+565,2023-03-11,02:48:02,Discord,0,I love you!,196,620
+566,2023-02-23,14:59:30,Slack,0,I love you!,432,921
+567,2023-03-28,08:07:51,Discord,1,5 days to go!,965,385
+568,2023-01-04,23:01:12,Discord,1,What's up?,106,393
+569,2023-02-15,18:05:31,WhatsApp,0,Good job at work today!,402,638
+570,2023-03-16,13:29:57,WhatsApp,1,Good job at work today!,333,931
+571,2023-01-24,10:55:37,Slack,0,I hate this app.,422,996
+572,2023-03-10,11:58:43,WhatsApp,0,I love you!,608,667
+573,2023-02-02,12:20:56,Slack,0,Good luck on the interview!,413,36
+574,2023-03-06,03:42:52,Slack,0,Be careful!,494,489
+575,2023-01-15,21:41:18,Discord,1,"Hey girl, what's cooking?",925,146
+576,2023-01-03,13:43:25,Discord,0,Be careful!,715,61
+577,2023-03-28,00:26:40,SnapChat,0,Good job at work today!,719,241
+578,2023-01-16,09:24:40,SnapChat,1,Be careful!,559,256
+579,2023-01-17,21:07:17,Messenger,0,Could you pick up some milk on your way home?,182,809
+580,2023-03-01,19:16:15,SnapChat,0,Be careful!,278,338
+581,2023-02-18,00:52:34,Slack,1,ROLF,571,907
+582,2023-01-28,03:33:29,Messenger,0,"Hey girl, what's cooking?",971,511
+583,2023-02-08,01:43:44,Messenger,0,The kids are at school rn…,422,281
+584,2023-02-26,09:17:09,Slack,0,The dog got stuck on the roof again…,181,487
+585,2023-03-04,20:07:01,Discord,0,What's up?,809,273
+586,2023-03-08,20:14:07,Messenger,1,"Hey girl, what's cooking?",940,909
+587,2023-03-15,04:30:23,Messenger,1,Where is the butter again?,892,902
+588,2023-03-24,15:50:53,Slack,1,I hate this app.,678,58
+589,2023-02-10,16:32:32,Discord,1,I hate this app.,667,660
+590,2023-02-10,14:42:34,WhatsApp,1,Hey!,834,951
+591,2023-03-27,20:38:01,Slack,0,How are you??,750,971
+592,2023-03-15,17:14:06,Messenger,1,I love you!,62,226
+593,2023-01-12,00:10:15,Discord,0,5 days to go!,110,444
+594,2023-01-17,09:47:57,WhatsApp,1,Be careful!,316,624
+595,2023-03-30,10:45:07,Messenger,0,The kids are at school rn…,643,97
+596,2023-03-10,12:57:58,Slack,1,How are you??,359,555
+597,2023-02-12,12:44:27,Messenger,1,Could you pick up some milk on your way home?,455,108
+598,2023-02-24,21:51:40,Discord,0,Good job at work today!,646,660
+599,2023-03-29,16:01:14,WhatsApp,0,How are you??,180,584
+600,2023-03-14,19:42:56,WhatsApp,1,What's up?,316,586
+601,2023-03-17,12:34:11,WhatsApp,0,Be careful!,596,576
+602,2023-02-05,14:17:32,SnapChat,1,"Hey girl, what's cooking?",273,177
+603,2023-01-02,23:35:09,SnapChat,0,Hey!,686,76
+604,2023-02-22,02:18:51,WhatsApp,0,Good luck on the interview!,94,60
+605,2023-02-24,19:10:21,SnapChat,1,The kids are at school rn…,887,998
+606,2023-02-24,19:45:09,Slack,1,LOL,874,80
+607,2023-01-26,02:39:17,Slack,0,The dog got stuck on the roof again…,869,772
+608,2023-02-28,17:31:01,Messenger,1,Could you pick up some milk on your way home?,971,562
+609,2023-01-21,09:25:20,SnapChat,1,OMG!,221,328
+610,2023-03-15,05:38:56,Slack,0,I'm thinking about you :),425,243
+611,2023-01-09,16:01:20,SnapChat,0,The dog got stuck on the roof again…,690,99
+612,2023-01-31,05:59:15,Discord,0,LMAO!,479,535
+613,2023-01-27,22:56:32,Messenger,1,The kids are at school rn…,667,627
+614,2023-01-10,15:45:44,WhatsApp,0,OMG!,810,666
+615,2023-03-27,19:41:57,Messenger,1,Hey!,772,384
+616,2023-03-30,11:40:01,Discord,0,5 days to go!,894,819
+617,2023-03-15,05:53:53,SnapChat,1,LMAO!,819,982
+618,2023-01-24,21:32:00,SnapChat,0,The kids are at school rn…,473,410
+619,2023-02-28,12:08:41,SnapChat,1,ROLF,368,729
+620,2023-03-25,05:43:59,WhatsApp,0,Why are you so rude?,631,441
+621,2023-02-17,18:01:50,Messenger,0,Why are you so rude?,342,846
+622,2023-02-12,00:51:12,SnapChat,1,Good job at work today!,566,749
+623,2023-02-11,09:55:47,WhatsApp,1,Good luck on the interview!,765,694
+624,2023-01-05,15:20:24,SnapChat,0,I hate this app.,794,630
+625,2023-01-06,16:02:40,Messenger,1,What's up?,728,508
+626,2023-02-20,02:57:30,WhatsApp,1,What's up?,480,656
+627,2023-03-15,22:29:57,SnapChat,1,Good job at work today!,207,96
+628,2023-01-06,11:45:00,Slack,1,ROLF,841,973
+629,2023-03-07,00:10:29,Messenger,1,I hate this app.,582,639
+630,2023-03-21,02:28:11,Discord,0,The kids are at school rn…,608,983
+631,2023-03-08,19:51:50,SnapChat,0,Could you pick up some milk on your way home?,643,362
+632,2023-03-30,08:10:51,Messenger,0,Hey!,566,246
+633,2023-02-18,19:25:31,Discord,1,What's up?,312,295
+634,2023-03-31,23:06:24,Discord,1,LOL,963,542
+635,2023-02-11,14:35:49,Discord,1,I love you!,781,896
+636,2023-02-18,10:04:15,Slack,1,What's up?,253,5
+637,2023-02-18,03:50:57,Slack,0,Be careful!,28,741
+638,2023-02-14,15:46:22,WhatsApp,0,Good job at work today!,734,195
+639,2023-01-01,06:54:50,Messenger,0,Why are you so rude?,281,377
+640,2023-01-26,07:45:20,Slack,1,LMAO!,961,190
+641,2023-02-28,13:33:32,WhatsApp,1,Good luck on the interview!,962,666
+642,2023-02-27,13:06:28,WhatsApp,1,OMG!,815,424
+643,2023-03-07,14:24:02,SnapChat,0,"Hey girl, what's cooking?",489,646
+644,2023-01-01,18:56:59,Discord,1,LMAO!,555,586
+645,2023-01-22,09:21:14,WhatsApp,1,The dog got stuck on the roof again…,202,722
+646,2023-03-20,15:25:47,SnapChat,0,Why are you so rude?,630,77
+647,2023-01-22,07:09:25,Discord,0,Good job at work today!,273,787
+648,2023-01-19,06:17:04,WhatsApp,0,"Hey girl, what's cooking?",879,904
+649,2023-03-13,01:15:53,SnapChat,1,Could you pick up some milk on your way home?,809,410
+650,2023-03-04,05:44:13,Messenger,0,ROLF,499,464
+651,2023-01-30,15:51:03,Messenger,1,Good job at work today!,181,767
+652,2023-01-12,02:58:07,WhatsApp,1,ROLF,435,470
+653,2023-02-07,19:11:17,SnapChat,0,I hate this app.,634,663
+654,2023-01-16,16:18:32,Slack,0,Sup bro?,102,984
+655,2023-02-09,20:23:09,Discord,1,The kids are at school rn…,612,748
+656,2023-02-26,02:12:47,Messenger,1,OMG!,359,741
+657,2023-02-26,11:03:26,Discord,1,"Hey girl, what's cooking?",125,891
+658,2023-02-27,04:11:02,WhatsApp,0,The kids are at school rn…,787,320
+659,2023-01-19,02:00:46,Messenger,0,I love you!,497,935
+660,2023-03-06,22:52:26,Discord,1,What's up?,809,564
+661,2023-01-16,15:22:24,WhatsApp,0,How are you??,920,726
+662,2023-03-26,11:36:10,SnapChat,0,Good luck on the interview!,60,687
+663,2023-01-27,05:14:06,Discord,0,Could you pick up some milk on your way home?,753,600
+664,2023-03-28,10:24:15,Slack,1,How are you??,909,690
+665,2023-04-01,00:02:36,Slack,0,What's up?,489,128
+666,2023-03-02,02:36:36,WhatsApp,0,The kids are at school rn…,779,424
+667,2023-03-16,11:06:38,WhatsApp,0,LMAO!,848,640
+668,2023-02-28,22:22:25,WhatsApp,1,Good luck on the interview!,243,345
+669,2023-02-15,04:29:50,SnapChat,0,Could you pick up some milk on your way home?,638,965
+670,2023-02-15,01:12:34,Messenger,0,ROLF,715,381
+671,2023-02-27,02:41:44,Slack,1,Could you pick up some milk on your way home?,728,731
+672,2023-03-15,22:03:04,Messenger,1,Good job at work today!,798,187
+673,2023-02-07,02:00:00,Slack,0,I love you!,960,346
+674,2023-02-16,10:15:22,Slack,1,5 days to go!,787,831
+675,2023-01-19,14:04:38,Discord,1,Good job at work today!,467,919
+676,2023-01-06,20:54:25,Discord,1,Sup bro?,84,413
+677,2023-03-07,19:00:11,Discord,1,LMAO!,396,506
+678,2023-01-31,01:44:24,SnapChat,0,I'm thinking about you :),874,256
+679,2023-02-20,04:39:53,Discord,0,Could you pick up some milk on your way home?,972,126
+680,2023-03-17,12:40:45,Discord,1,Why are you so rude?,435,741
+681,2023-03-23,21:56:40,Slack,1,5 days to go!,328,778
+682,2023-01-16,19:59:05,Discord,0,Good job at work today!,224,8
+683,2023-01-06,01:58:59,Slack,0,Could you pick up some milk on your way home?,283,653
+684,2023-02-01,06:35:34,WhatsApp,0,How are you??,599,614
+685,2023-03-28,21:50:55,Discord,0,Where is the butter again?,571,277
+686,2023-03-25,19:10:53,WhatsApp,1,Could you pick up some milk on your way home?,36,175
+687,2023-02-17,13:27:49,Messenger,0,What's up?,959,483
+688,2023-02-23,23:49:04,WhatsApp,1,Why are you so rude?,262,825
+689,2023-03-29,10:45:53,Discord,1,Where is the butter again?,58,99
+690,2023-03-19,05:38:55,Slack,0,LMAO!,728,312
+691,2023-02-26,14:51:44,Discord,0,Sup bro?,781,451
+692,2023-02-16,10:50:55,SnapChat,1,Where is the butter again?,88,964
+693,2023-02-09,07:10:54,Messenger,1,Why are you so rude?,375,488
+694,2023-01-11,12:14:07,Discord,0,Sup bro?,894,675
+695,2023-01-09,18:07:03,Messenger,1,LMAO!,660,784
+696,2023-01-08,02:34:55,Discord,1,Why are you so rude?,155,440
+697,2023-01-31,16:15:31,SnapChat,1,LOL,277,444
+698,2023-03-06,16:40:38,Slack,0,Why are you so rude?,532,693
+699,2023-02-19,02:36:40,Discord,0,The dog got stuck on the roof again…,660,335
+700,2023-01-20,22:56:17,WhatsApp,0,OMG!,653,586
+701,2023-02-10,22:39:10,Slack,0,Could you pick up some milk on your way home?,286,983
+702,2023-02-16,14:20:51,Slack,1,The kids are at school rn…,185,371
+703,2023-01-22,00:30:46,Slack,1,5 days to go!,196,820
+704,2023-03-11,00:49:05,WhatsApp,0,Hey!,157,922
+705,2023-02-05,04:01:59,Slack,0,Why are you so rude?,959,128
+706,2023-01-15,10:58:14,Messenger,0,LMAO!,439,441
+707,2023-01-11,13:26:33,WhatsApp,1,Good luck on the interview!,915,387
+708,2023-02-21,07:11:50,WhatsApp,1,ROLF,667,815
+709,2023-03-08,13:53:00,Slack,0,Hey!,586,994
+710,2023-02-05,07:05:16,Slack,1,Be careful!,513,924
+711,2023-03-13,00:34:43,Discord,0,Where is the butter again?,573,357
+712,2023-02-11,16:49:29,WhatsApp,1,"Hey girl, what's cooking?",239,286
+713,2023-02-10,08:01:00,Messenger,0,Good luck on the interview!,468,99
+714,2023-01-07,17:08:22,Slack,0,Where is the butter again?,211,98
+715,2023-01-02,21:38:10,WhatsApp,0,The kids are at school rn…,617,638
+716,2023-03-23,03:44:11,Discord,0,I hate this app.,816,961
+717,2023-03-04,17:04:04,SnapChat,1,Where is the butter again?,296,240
+718,2023-03-08,23:09:49,WhatsApp,0,ROLF,777,399
+719,2023-01-08,02:39:43,SnapChat,0,I love you!,498,455
+720,2023-01-20,23:10:19,SnapChat,1,5 days to go!,505,199
+721,2023-01-02,21:05:38,SnapChat,1,Be careful!,922,71
+722,2023-02-20,06:08:25,Messenger,0,Good job at work today!,75,525
+723,2023-01-02,21:04:09,WhatsApp,0,What's up?,48,111
+724,2023-03-21,16:30:58,SnapChat,0,Where is the butter again?,341,779
+725,2023-01-23,21:50:47,Slack,0,Good job at work today!,169,424
+726,2023-03-22,18:30:24,Slack,0,OMG!,415,599
+727,2023-03-01,02:39:07,Messenger,1,OMG!,23,387
+728,2023-02-20,17:54:06,Slack,0,ROLF,479,722
+729,2023-02-09,00:11:18,Discord,1,Why are you so rude?,451,639
+730,2023-02-05,03:06:40,SnapChat,1,LMAO!,467,745
+731,2023-02-08,15:08:32,WhatsApp,0,LOL,705,169
+732,2023-02-15,00:54:23,SnapChat,1,5 days to go!,624,921
+733,2023-02-06,07:24:32,Slack,1,Why are you so rude?,895,748
+734,2023-03-11,10:35:00,Discord,1,Hey!,597,364
+735,2023-01-01,12:42:41,SnapChat,1,The dog got stuck on the roof again…,924,375
+736,2023-02-23,05:26:38,Messenger,1,Good luck on the interview!,698,879
+737,2023-03-24,08:41:25,Slack,1,5 days to go!,80,780
+738,2023-01-05,21:05:00,Slack,0,Could you pick up some milk on your way home?,520,853
+739,2023-03-25,03:19:49,WhatsApp,1,I love you!,194,108
+740,2023-01-31,13:01:02,Discord,1,LOL,756,96
+741,2023-03-03,03:51:38,SnapChat,1,Be careful!,748,137
+742,2023-03-22,01:34:46,SnapChat,0,5 days to go!,441,821
+743,2023-01-31,14:37:04,WhatsApp,0,Sup bro?,128,835
+744,2023-02-12,15:26:21,SnapChat,1,"Hey girl, what's cooking?",511,636
+745,2023-02-08,09:14:31,Discord,1,5 days to go!,52,98
+746,2023-03-06,10:50:43,Messenger,1,LMAO!,991,527
+747,2023-03-06,16:39:26,Messenger,0,5 days to go!,864,972
+748,2023-02-19,00:45:54,Slack,0,How are you??,182,183
+749,2023-03-23,11:27:59,WhatsApp,1,I'm thinking about you :),640,566
+750,2023-01-30,12:36:01,Slack,0,Good job at work today!,335,405
+751,2023-03-26,21:10:20,WhatsApp,0,The dog got stuck on the roof again…,943,338
+752,2023-02-20,19:09:26,WhatsApp,0,Sup bro?,378,635
+753,2023-03-01,23:02:42,Discord,0,The dog got stuck on the roof again…,43,907
+754,2023-02-22,05:57:54,WhatsApp,1,The kids are at school rn…,493,89
+755,2023-02-27,12:51:15,WhatsApp,1,"Hey girl, what's cooking?",932,442
+756,2023-03-30,03:03:44,Messenger,0,I hate this app.,414,723
+757,2023-01-15,10:04:43,SnapChat,0,LOL,749,608
+758,2023-03-10,10:32:48,Slack,0,Good luck on the interview!,213,624
+759,2023-01-07,23:06:25,Messenger,0,Be careful!,853,410
+760,2023-03-14,14:36:33,SnapChat,0,OMG!,423,211
+761,2023-01-31,00:39:52,WhatsApp,0,I'm thinking about you :),823,985
+762,2023-02-15,04:41:42,Messenger,0,OMG!,434,928
+763,2023-02-17,21:05:53,WhatsApp,0,Hey!,224,308
+764,2023-01-31,09:07:12,Discord,1,Good job at work today!,852,164
+765,2023-03-12,23:59:37,Messenger,0,Be careful!,783,48
+766,2023-02-21,12:46:20,Discord,0,Why are you so rude?,600,380
+767,2023-03-16,18:54:52,Slack,0,Good luck on the interview!,607,688
+768,2023-03-17,08:02:57,Discord,1,Where is the butter again?,612,938
+769,2023-02-20,10:14:40,Slack,0,Good luck on the interview!,837,739
+770,2023-02-09,19:45:14,Messenger,0,Where is the butter again?,384,688
+771,2023-03-04,14:01:39,Messenger,1,The kids are at school rn…,808,294
+772,2023-01-13,05:02:44,Slack,1,OMG!,346,882
+773,2023-01-17,08:42:38,WhatsApp,1,Why are you so rude?,71,437
+774,2023-01-24,00:45:06,Discord,0,Hey!,690,368
+775,2023-01-11,19:11:15,Discord,0,The kids are at school rn…,106,217
+776,2023-02-17,01:27:00,WhatsApp,0,Could you pick up some milk on your way home?,454,383
+777,2023-01-28,07:35:53,SnapChat,1,The dog got stuck on the roof again…,970,571
+778,2023-03-09,04:56:19,Slack,0,"Hey girl, what's cooking?",644,585
+779,2023-01-18,03:34:38,SnapChat,1,Sup bro?,355,233
+780,2023-01-16,12:17:27,SnapChat,1,Why are you so rude?,794,501
+781,2023-03-10,05:41:08,Messenger,1,I hate this app.,946,830
+782,2023-01-12,23:02:23,Discord,0,How are you??,309,21
+783,2023-03-23,10:18:57,WhatsApp,1,The kids are at school rn…,31,387
+784,2023-03-14,12:55:44,WhatsApp,0,The kids are at school rn…,639,657
+785,2023-03-19,12:28:32,SnapChat,0,Hey!,737,630
+786,2023-01-28,19:00:46,Discord,1,I'm thinking about you :),598,239
+787,2023-03-31,09:52:39,WhatsApp,0,LOL,750,906
+788,2023-01-27,16:41:12,WhatsApp,0,"Hey girl, what's cooking?",414,519
+789,2023-01-15,06:11:35,Messenger,1,What's up?,734,934
+790,2023-01-14,09:55:23,Messenger,0,Hey!,239,210
+791,2023-04-01,18:13:53,Messenger,0,"Hey girl, what's cooking?",196,341
+792,2023-01-13,06:06:37,Messenger,0,What's up?,754,325
+793,2023-02-28,14:54:12,SnapChat,1,Be careful!,149,542
+794,2023-02-13,05:05:14,WhatsApp,0,"Hey girl, what's cooking?",118,85
+795,2023-03-02,17:54:50,Messenger,1,Good job at work today!,310,328
+796,2023-01-29,10:41:48,Slack,1,What's up?,158,652
+797,2023-01-01,05:14:19,Discord,0,"Hey girl, what's cooking?",273,99
+798,2023-01-12,21:43:54,Messenger,0,OMG!,215,230
+799,2023-01-19,14:17:08,SnapChat,1,Sup bro?,866,934
+800,2023-02-09,17:13:46,Messenger,1,Good job at work today!,857,241
+801,2023-03-23,19:16:39,Slack,1,How are you??,93,436
+802,2023-01-05,22:29:03,Discord,0,Why are you so rude?,931,244
+803,2023-03-03,16:13:15,SnapChat,1,Be careful!,333,630
+804,2023-01-15,03:50:57,SnapChat,0,The dog got stuck on the roof again…,667,23
+805,2023-02-09,07:20:34,Discord,1,5 days to go!,882,498
+806,2023-03-01,03:05:27,SnapChat,1,Why are you so rude?,430,183
+807,2023-02-21,11:02:47,Messenger,0,LOL,61,164
+808,2023-02-21,15:05:33,Discord,0,I hate this app.,235,283
+809,2023-01-08,22:06:38,Messenger,0,Where is the butter again?,778,452
+810,2023-02-03,07:53:01,Slack,0,Good job at work today!,185,657
+811,2023-01-06,14:28:30,Slack,1,I'm thinking about you :),441,995
+812,2023-03-25,06:00:56,Messenger,0,Sup bro?,835,999
+813,2023-01-30,06:14:01,Slack,1,I hate this app.,749,820
+814,2023-02-20,14:59:24,SnapChat,1,The kids are at school rn…,837,192
+815,2023-03-14,12:19:44,Discord,0,The kids are at school rn…,982,118
+816,2023-01-10,11:15:12,Messenger,0,Be careful!,639,278
+817,2023-02-12,04:29:00,Messenger,1,The kids are at school rn…,280,956
+818,2023-01-11,14:02:02,SnapChat,0,How are you??,946,61
+819,2023-01-03,14:02:32,Messenger,0,5 days to go!,810,931
+820,2023-01-28,23:37:56,WhatsApp,1,Good luck on the interview!,631,94
+821,2023-02-18,10:23:37,WhatsApp,1,Hey!,83,695
+822,2023-02-12,09:33:10,SnapChat,0,Could you pick up some milk on your way home?,783,60
+823,2023-02-19,16:31:37,Discord,1,5 days to go!,837,925
+824,2023-02-21,07:13:13,Slack,1,Hey!,451,244
+825,2023-01-24,10:36:47,Messenger,0,Sup bro?,644,294
+826,2023-01-28,01:38:22,Discord,1,Hey!,909,468
+827,2023-01-17,09:29:23,Slack,1,OMG!,749,787
+828,2023-03-18,18:58:12,Slack,1,The kids are at school rn…,508,473
+829,2023-03-08,06:45:25,SnapChat,1,ROLF,31,823
+830,2023-01-29,01:27:51,Slack,1,Could you pick up some milk on your way home?,537,864
+831,2023-01-13,05:34:03,Messenger,0,Why are you so rude?,341,798
+832,2023-03-15,12:19:02,SnapChat,0,What's up?,239,797
+833,2023-03-30,18:41:08,Slack,0,OMG!,335,570
+834,2023-02-07,12:36:48,Slack,1,ROLF,634,977
+835,2023-03-20,02:42:58,WhatsApp,1,Good job at work today!,468,106
+836,2023-03-09,21:24:38,Messenger,1,5 days to go!,47,491
+837,2023-03-16,14:57:56,Slack,0,5 days to go!,520,656
+838,2023-03-09,05:13:21,SnapChat,0,Could you pick up some milk on your way home?,823,381
+839,2023-03-09,04:51:58,SnapChat,1,"Hey girl, what's cooking?",215,431
+840,2023-01-27,01:47:26,Discord,0,5 days to go!,661,141
+841,2023-02-07,02:49:31,Messenger,1,The kids are at school rn…,853,211
+842,2023-03-07,09:57:51,Messenger,1,Good job at work today!,10,816
+843,2023-03-21,19:47:15,WhatsApp,0,5 days to go!,986,805
+844,2023-02-02,10:17:32,Messenger,0,Good job at work today!,846,220
+845,2023-01-09,12:24:01,Messenger,0,Good job at work today!,377,125
+846,2023-01-01,10:29:29,Slack,0,I love you!,114,403
+847,2023-01-15,23:07:11,Discord,0,Good job at work today!,694,433
+848,2023-03-30,15:02:28,SnapChat,1,Good job at work today!,126,971
+849,2023-02-07,08:11:32,Discord,1,The kids are at school rn…,181,725
+850,2023-02-17,21:21:28,Discord,1,I'm thinking about you :),472,740
+851,2023-03-13,14:31:36,Slack,0,I hate this app.,479,896
+852,2023-03-29,10:53:57,Messenger,1,Good job at work today!,82,581
+853,2023-03-17,23:08:02,SnapChat,1,LOL,262,651
+854,2023-03-09,15:24:24,SnapChat,0,5 days to go!,783,218
+855,2023-01-19,16:38:04,Slack,1,I love you!,357,99
+856,2023-02-11,21:26:13,SnapChat,0,Where is the butter again?,892,771
+857,2023-03-04,22:28:14,WhatsApp,1,The dog got stuck on the roof again…,296,935
+858,2023-01-23,13:26:15,SnapChat,0,5 days to go!,911,506
+859,2023-03-03,02:29:16,SnapChat,1,5 days to go!,999,714
+860,2023-03-09,16:38:43,Discord,1,The kids are at school rn…,577,612
+861,2023-01-06,09:34:20,Slack,1,OMG!,384,491
+862,2023-02-24,17:05:51,WhatsApp,0,The kids are at school rn…,962,907
+863,2023-01-20,22:38:00,WhatsApp,1,Sup bro?,777,201
+864,2023-01-02,06:17:13,Discord,1,How are you??,622,440
+865,2023-01-13,05:36:41,Messenger,0,Could you pick up some milk on your way home?,790,82
+866,2023-03-29,07:11:18,Slack,0,How are you??,685,756
+867,2023-02-17,18:23:08,Slack,0,Hey!,418,631
+868,2023-01-09,18:58:29,Discord,1,Good luck on the interview!,941,756
+869,2023-01-16,12:39:13,Slack,1,"Hey girl, what's cooking?",245,113
+870,2023-01-05,14:21:36,SnapChat,1,Good luck on the interview!,488,935
+871,2023-01-19,07:14:11,Discord,0,What's up?,222,243
+872,2023-01-28,15:34:45,SnapChat,1,Sup bro?,169,600
+873,2023-01-29,14:00:42,WhatsApp,0,I hate this app.,420,198
+874,2023-03-01,03:46:24,WhatsApp,1,Where is the butter again?,153,925
+875,2023-02-09,20:09:06,Discord,0,ROLF,845,36
+876,2023-02-19,03:27:41,SnapChat,0,5 days to go!,656,585
+877,2023-02-24,23:15:45,Messenger,1,Could you pick up some milk on your way home?,80,888
+878,2023-02-03,11:45:13,Slack,0,LMAO!,694,233
+879,2023-02-16,22:00:56,Slack,0,Be careful!,477,347
+880,2023-02-06,23:10:18,Messenger,1,Sup bro?,926,870
+881,2023-01-09,09:07:30,Messenger,0,LMAO!,513,834
+882,2023-02-08,16:07:46,Discord,0,I love you!,487,621
+883,2023-03-31,03:02:52,Messenger,1,I hate this app.,316,640
+884,2023-01-15,00:02:23,WhatsApp,1,OMG!,425,973
+885,2023-03-18,17:17:41,Slack,1,The kids are at school rn…,734,990
+886,2023-03-30,16:03:36,Messenger,0,What's up?,417,815
+887,2023-01-23,13:25:58,Slack,0,Good job at work today!,205,703
+888,2023-02-15,09:45:24,Discord,1,I love you!,401,774
+889,2023-02-07,17:18:32,WhatsApp,0,Sup bro?,408,155
+890,2023-02-27,16:50:24,SnapChat,0,I love you!,82,911
+891,2023-03-27,16:11:24,Slack,0,5 days to go!,977,726
+892,2023-01-30,20:24:32,WhatsApp,0,I hate this app.,825,636
+893,2023-03-20,12:31:19,Discord,1,Where is the butter again?,907,623
+894,2023-03-08,13:33:21,Discord,0,Could you pick up some milk on your way home?,280,106
+895,2023-03-20,11:45:34,Discord,1,LOL,215,923
+896,2023-03-02,17:12:59,WhatsApp,1,I'm thinking about you :),69,793
+897,2023-02-24,07:30:58,WhatsApp,1,Hey!,393,688
+898,2023-03-03,12:12:40,WhatsApp,0,How are you??,834,777
+899,2023-03-14,15:25:51,Discord,0,The dog got stuck on the roof again…,340,126
+900,2023-03-19,21:09:03,WhatsApp,1,I love you!,599,860
+901,2023-02-10,14:43:15,Slack,0,Could you pick up some milk on your way home?,906,730
+902,2023-01-22,12:49:47,Discord,1,How are you??,176,792
+903,2023-01-25,10:40:50,Discord,1,I'm thinking about you :),444,709
+904,2023-01-19,05:16:07,Slack,1,LOL,71,222
+905,2023-02-04,19:37:33,Messenger,0,I love you!,926,237
+906,2023-03-24,23:04:48,WhatsApp,1,OMG!,759,455
+907,2023-02-04,13:43:40,Slack,1,How are you??,837,904
+908,2023-02-13,17:33:10,Messenger,1,I love you!,874,416
+909,2023-03-03,02:07:58,Slack,1,The dog got stuck on the roof again…,603,43
+910,2023-03-04,21:24:55,Slack,1,Why are you so rude?,310,919
+911,2023-03-20,09:56:24,WhatsApp,0,Why are you so rude?,172,969
+912,2023-03-23,10:19:25,Discord,0,5 days to go!,963,28
+913,2023-03-27,17:58:51,Discord,1,What's up?,808,417
+914,2023-01-20,15:35:27,WhatsApp,0,Be careful!,837,966
+915,2023-01-20,20:29:37,WhatsApp,0,Be careful!,723,879
+916,2023-03-20,06:00:15,WhatsApp,1,OMG!,696,415
+917,2023-02-11,00:01:56,Discord,1,"Hey girl, what's cooking?",403,98
+918,2023-03-02,12:27:10,WhatsApp,1,Good luck on the interview!,393,108
+919,2023-02-14,22:17:45,Messenger,0,I'm thinking about you :),218,312
+920,2023-02-13,02:58:43,Slack,1,What's up?,830,869
+921,2023-01-30,03:51:55,Discord,0,Where is the butter again?,287,551
+922,2023-01-12,13:18:00,Slack,0,Sup bro?,940,915
+923,2023-04-01,14:49:38,SnapChat,0,I love you!,155,339
+924,2023-02-25,18:28:06,Slack,0,Good luck on the interview!,157,600
+925,2023-01-14,16:06:59,SnapChat,0,"Hey girl, what's cooking?",848,213
+926,2023-02-18,18:54:19,SnapChat,0,The kids are at school rn…,695,844
+927,2023-01-22,14:15:52,Slack,1,The kids are at school rn…,496,508
+928,2023-03-06,08:33:28,WhatsApp,1,The kids are at school rn…,182,891
+929,2023-02-27,23:14:47,Messenger,1,Where is the butter again?,600,471
+930,2023-02-18,07:23:52,WhatsApp,1,The dog got stuck on the roof again…,916,834
+931,2023-02-18,08:37:05,Messenger,0,I'm thinking about you :),723,88
+932,2023-01-04,14:55:08,Slack,0,How are you??,977,947
+933,2023-02-21,19:42:42,Discord,0,ROLF,228,491
+934,2023-03-12,13:33:28,Discord,0,Sup bro?,876,837
+935,2023-01-17,03:05:53,Discord,1,"Hey girl, what's cooking?",449,295
+936,2023-01-31,08:37:51,Discord,1,Good job at work today!,740,644
+937,2023-01-07,13:02:09,Messenger,1,ROLF,370,934
+938,2023-01-04,22:52:14,Messenger,1,I love you!,661,477
+939,2023-02-06,08:51:37,Messenger,1,Where is the butter again?,532,823
+940,2023-01-27,05:52:55,Messenger,0,5 days to go!,106,621
+941,2023-01-04,21:46:23,Slack,0,Sup bro?,141,343
+942,2023-01-15,16:30:59,SnapChat,1,"Hey girl, what's cooking?",666,413
+943,2023-03-25,16:45:59,Slack,0,What's up?,781,725
+944,2023-03-10,18:18:57,WhatsApp,1,I love you!,113,911
+945,2023-01-11,06:40:09,Messenger,1,I hate this app.,928,745
+946,2023-02-27,06:08:00,SnapChat,0,5 days to go!,475,646
+947,2023-02-26,16:43:44,WhatsApp,0,OMG!,690,128
+948,2023-01-17,01:35:02,Slack,1,LMAO!,431,394
+949,2023-03-07,12:18:13,Messenger,0,Why are you so rude?,631,394
+950,2023-03-03,06:30:04,Slack,0,I'm thinking about you :),879,684
+951,2023-02-15,03:36:09,Messenger,1,ROLF,62,547
+952,2023-03-14,02:28:39,WhatsApp,1,What's up?,449,759
+953,2023-03-27,11:43:03,Discord,1,Hey!,901,831
+954,2023-01-21,18:42:05,Slack,1,Could you pick up some milk on your way home?,960,815
+955,2023-02-17,06:10:56,WhatsApp,1,Good luck on the interview!,89,533
+956,2023-03-17,02:39:13,Slack,0,Be careful!,4,112
+957,2023-01-27,08:45:24,Messenger,1,Why are you so rude?,496,848
+958,2023-02-20,12:29:42,WhatsApp,1,LMAO!,720,745
+959,2023-03-25,16:05:08,WhatsApp,1,Where is the butter again?,778,333
+960,2023-02-01,23:14:38,Messenger,1,"Hey girl, what's cooking?",685,434
+961,2023-02-28,03:51:13,WhatsApp,1,Good luck on the interview!,948,177
+962,2023-02-23,13:40:50,WhatsApp,0,ROLF,959,52
+963,2023-03-30,05:37:22,Discord,1,I'm thinking about you :),970,496
+964,2023-03-29,09:58:16,Slack,1,How are you??,566,51
+965,2023-02-06,10:14:21,Slack,1,How are you??,573,825
+966,2023-01-23,23:03:01,Discord,0,The kids are at school rn…,972,934
+967,2023-03-03,19:57:16,Slack,0,OMG!,924,396
+968,2023-01-15,21:42:18,Slack,1,LMAO!,977,723
+969,2023-03-22,10:50:35,Slack,1,LOL,380,612
+970,2023-02-12,05:09:36,Slack,1,LOL,722,340
+971,2023-03-28,18:20:49,Slack,0,I love you!,725,625
+972,2023-01-29,16:42:24,Discord,1,I'm thinking about you :),484,557
+973,2023-03-13,21:10:35,Slack,1,Good job at work today!,754,431
+974,2023-02-22,21:37:27,Slack,1,Could you pick up some milk on your way home?,78,686
+975,2023-02-17,21:35:28,Messenger,1,"Hey girl, what's cooking?",472,245
+976,2023-03-25,02:54:45,Discord,1,Good luck on the interview!,345,946
+977,2023-01-18,05:00:01,WhatsApp,1,I'm thinking about you :),703,486
+978,2023-01-02,07:38:36,Discord,0,5 days to go!,667,913
+979,2023-01-27,11:13:55,WhatsApp,1,LMAO!,973,597
+980,2023-02-14,21:22:55,Slack,0,I hate this app.,667,28
+981,2023-01-04,00:42:55,Messenger,0,I'm thinking about you :),959,675
+982,2023-03-06,09:09:07,Discord,0,5 days to go!,899,62
+983,2023-03-25,07:14:57,Messenger,0,The kids are at school rn…,21,346
+984,2023-02-23,14:14:47,Slack,0,I love you!,656,765
+985,2023-03-23,10:35:09,Messenger,1,Be careful!,977,424
+986,2023-01-08,12:42:37,WhatsApp,1,5 days to go!,519,653
+987,2023-03-12,14:57:01,SnapChat,0,Where is the butter again?,517,653
+988,2023-01-08,06:29:28,Slack,1,I'm thinking about you :),509,569
+989,2023-03-25,18:30:53,Discord,0,ROLF,153,110
+990,2023-01-15,11:26:48,Discord,0,Good luck on the interview!,508,660
+991,2023-03-22,11:59:15,Messenger,0,Hey!,924,774
+992,2023-01-29,05:15:21,Discord,0,The dog got stuck on the roof again…,586,541
+993,2023-03-03,02:20:58,Slack,1,OMG!,470,565
+994,2023-01-21,09:37:33,Discord,1,Be careful!,138,508
+995,2023-02-06,01:56:02,Slack,1,I hate this app.,994,98
+996,2023-03-18,20:37:56,WhatsApp,1,Sup bro?,599,36
+997,2023-01-02,02:03:11,Discord,1,I love you!,870,60
+998,2023-01-14,23:03:07,Messenger,0,Could you pick up some milk on your way home?,819,508
+999,2023-01-15,07:16:05,Discord,1,LMAO!,893,371
+1000,2023-03-25,03:14:01,Slack,0,Why are you so rude?,834,274
