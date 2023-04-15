@@ -1,1 +1,18 @@
-This is the base html file. The css imports and things will be here that are needed for every page
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Taskforce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/assets/w3.css">
+
+        <div class="w3-col l10">
+          {% block content %}
+          {% endblock content %}
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
