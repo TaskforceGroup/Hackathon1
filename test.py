@@ -67,7 +67,7 @@ class MyApp(App):
         
         center_widget = CenterWidget(orientation='vertical', size_hint=(0.7, 1))
         main_widget.add_widget(center_widget)
-        
+
         return root
 
 
