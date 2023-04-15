@@ -1,9 +1,11 @@
+from flask import render_template
+
 from . import app
 
 
 @app.route('/')
 def root():
-    return 'Welcome to the app. There is no user interface yet. <br><br><br>Goodbye'
+    return render_template('timeline.html')
 
 
 # These are temporary URL endpoints to run functions
