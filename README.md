@@ -11,8 +11,5 @@ See this tutorial on how to add more functionality to this program https://blog.
 How to run:
 Create a venv: python -m venv venv
 
-Activate the venv: source venv/bin/activate
-
-Install packages: pip install -r requirements.txt
-
+Run the local server (Windows in powershell): dev.ps1 
 Run the local server (Linux and MacOS): ./dev.sh
