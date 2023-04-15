@@ -10,6 +10,10 @@
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
+<script
+  type="text/javascript"
+  src="https://unpkg.com/vis-timeline@latest/standalone/umd/vis-timeline-graph2d.min.js"
+></script>
 </head>
 
 <!-- Navbar -->
@@ -35,7 +39,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 <body class="w3-light-grey">
 
 <!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
+<div class="w3-content w3-margin-top" style="max-width:1600px;">
 
   <!-- The Grid -->
   <div class="w3-row-padding">
@@ -44,6 +48,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     <div class="w3-third">
     
       <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="/w3images/avatar_hat.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Jane Doe</h2>
+          </div>
+        </div>
         <div class="w3-container">
           <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Designer</p>
           <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>London, UK</p>
@@ -95,45 +105,40 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     <!-- Right Column -->
     <div class="w3-twothird">
     
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+      <div class="w3-container w3-card w3-white w3-margin-bottom" style="padding-bottom: 5%;">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Timeline</h2>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
-          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+            <div id="visualization"></div>
         </div>
       </div>
 
       <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
-          <p>Web Development! All I need to know in one place</p>
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Data View</h2>
+        <div class="w3-cell" style="">
+            <b for="">Data Overview</b>
+            <textarea id="" name="" rows="4" cols="50">
+                At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+            </textarea>
           <hr>
         </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>London Business School</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
-          <p>Master Degree</p>
-          <hr>
+        <div class="w3-cell" style="">
+            <b for="">Write Description</b>
+
+            <textarea id="" name="" rows="4" cols="50">
+                At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+                At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+                At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+                At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+
+                At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+            </textarea>
         </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>School of Coding</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
-          <p>Bachelor Degree</p><br>
+        <div class="w3-cell">
+            <div class="w3-container gp-btn-dataview">
+            <button class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 100%; font-size: small;">Tag</button>
+            <button class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 100%; font-size: small;">+ Group</button>
+            <button class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 100%; font-size: small;">Analytics</button>
+            </div>
         </div>
       </div>
 
@@ -159,3 +164,27 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
 </body>
 </html>
+
+
+<script>
+// DOM element where the Timeline will be attached
+var container = document.getElementById("visualization");
+
+// Create a DataSet (allows two way data-binding)
+var items = new vis.DataSet([
+  { id: 1, content: "item 1", start: "2014-04-20" },
+  { id: 2, content: "item 2", start: "2014-04-14" },
+  { id: 3, content: "item 3", start: "2014-04-18" },
+  { id: 4, content: "item 4", start: "2014-04-16", end: "2014-04-19" },
+  { id: 5, content: "item 5", start: "2014-04-25" },
+  { id: 6, content: "item 6", start: "2014-04-27", type: "point" },
+]);
+
+// Configuration for the Timeline
+var options = {};
+
+// Create a Timeline
+var timeline = new vis.Timeline(container, items, options);
+
+
+</script>
