@@ -1,4 +1,4 @@
-from app import app, importers
+from . import app
 
 
 @app.route('/')
@@ -8,13 +8,10 @@ def root():
 
 # These are temporary URL endpoints to run functions
 
-
-
-@app.route('/import_sms')
+@app.route('/This_is_another_route')
 def temp_sms_import():
     """
-    This is for testing the import function.
-    Unformatted data will be returned to the html page
+    This is an example
     """
     result = 'a'
     return f'This is the import result: <br><br>{result}'

@@ -2,7 +2,7 @@
 Code for the first hackathon
 
 ## About
-This database/interface will be called pandoras_box. Named by the app powerful and benevolent Crimson Sky
+This database/interface will be called pandoras_box. Named by the all powerful and benevolent Crimson Sky
 
 We are using Flask because it is very customizable and runs on Linux, MacOS and Windows. It's also minimal so we should be able to build this in any direction we would want to go. It's likely that the frontend will be in HTML/CSS/JS and this would enable this to run from a single workstation or a server.
 
