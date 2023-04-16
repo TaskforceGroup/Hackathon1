@@ -8,3 +8,4 @@ Install instructions: https://kivy.org/doc/stable/gettingstarted/installation.ht
 
 
 Submit data by creating another branch, and making a pull request for that branch to go into staging. Or by emailing Nick
+
