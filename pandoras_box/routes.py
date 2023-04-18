@@ -17,3 +17,20 @@ def temp_sms_import():
     """
     result = 'a'
     return f'This is the import result: <br><br>{result}'
+
+@app.route('/api/groups')
+def groups():
+    json = {
+        'groups': [
+                {'name': 'Group A', 'description': 'Dedicated to finding Nick guilty', 'data': [
+                    'look at stars', 'Eat donuts', 'Play LOL'
+                    ]
+                },
+                {'name': 'Group B with a longer name', 'description': 'Free food events', 'data': [
+                    'Going to Walmart', 'Went to gym', 'look at rocks'
+                    ]
+                }
+            ]
+        }
+    return json
+
