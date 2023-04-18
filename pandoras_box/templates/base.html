@@ -258,3 +258,31 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 {% endblock %}
 
 
+<script>
+  function getJson() {
+    const xhttp = new XMLHttpRequest();
+    xhttp.onload = function() {
+      $("#DataOverview").val(this.responseText);
+    }
+    xhttp.open("GET", "http://127.0.0.1:8000/api/groups");
+    xhttp.send();
+  }
+
+  function sendJson() {
+    const xhr = new XMLHttpRequest();
+    xhr.open("POST", 'http://127.0.0.1:8000/api/groups', true);
+
+    // Send the proper header information along with the request
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+    xhr.onreadystatechange = () => { // Call a function when the state changes.
+      if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+        // Request finished. Do processing here.
+      }
+    }
+    xhr.send("foo=bar&lorem=ipsum");
+  }
+
+  getJson();
+  sendJson();
+  </script>
