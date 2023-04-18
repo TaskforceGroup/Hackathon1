@@ -230,6 +230,49 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
 
 <script>
+  
+    function fetchData() {
+      $.ajax({
+        url: '/api/groups',
+        type: 'GET',
+        dataType: 'json',
+        success: function(data) {
+          let groups = data.groups;
+          let container = $('#groups-container');
+          container.html(''); // Empty the container
+  
+          groups.forEach((group, index) => {
+            let groupName = $('<h3></h3>').text(group.name);
+            let groupDescription = $('<p></p>').text(group.description);
+            let groupData = $('<ul></ul>').addClass('group-data').css('display', 'none');
+  
+            group.data.forEach(item => {
+              let listItem = $('<li></li>').text(item);
+              groupData.append(listItem);
+            });
+  
+            let groupContainer = $('<div></div>').addClass('group-container');
+            groupContainer.append(groupName);
+            groupContainer.append(groupDescription);
+            groupContainer.append(groupData);
+  
+            container.append(groupContainer);
+  
+            groupName.on('click', () => {
+              groupData.slideToggle(); // Show or hide the group data on group name click
+            });
+          });
+        },
+        error: function(err) {
+          console.error('Failed to fetch data:', err);
+        }
+      });
+    }
+  
+    $(document).ready(() => {
+      fetchData(); // Fetch the data when the page is loaded
+    });
+  
   function openPopup() {
     $("#popupOuter").css("display", "block");
   }
