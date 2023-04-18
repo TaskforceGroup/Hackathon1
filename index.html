@@ -12,8 +12,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
 <script
   type="text/javascript"
-  src="https://unpkg.com/vis-timeline@latest/standalone/umd/vis-timeline-graph2d.min.js"
-></script>
+  src="https://unpkg.com/vis-timeline@latest/standalone/umd/vis-timeline-graph2d.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 </head>
 
 <!-- Navbar -->
@@ -26,7 +26,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
      <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Save</a>
      <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Load</a>
        <div class="w3-dropdown-hover w3-hide-small">
-       <button class="w3-button" title="Notifications">View <i class="fa fa-caret-down"></i></button>     
+       <button id="View" class="w3-button" title="">View <i class="fa fa-caret-down"></i></button>     
        <div class="w3-dropdown-content w3-card-4 w3-bar-block">
          <a href="#" class="w3-bar-item w3-button">Link</a>
          <a href="#" class="w3-bar-item w3-button">Link</a>
@@ -40,7 +40,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 <body class="w3-light-grey" style="">
 
 <!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1600px;">
+<div class="w3-content w3-margin-top" style="max-width:90%;">
 
   <!-- The Grid -->
   <div class="w3-row-padding">
@@ -58,16 +58,13 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <div style="margin: auto; padding-bottom: 5%;">
             <div class="w3-center">
               <span>
-                <button class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Clear Filters</button>
+                <button id="ClearFilters" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Clear Filters</button>
               </span>
               <span>
-                <button class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Data Type</button>
+                <button id="DataType" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Data Type</button>
               </span>
               <span>
-                <button class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">File Size</button>
-              </span>
-              <span>
-                <button class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Increment Step</button>
+                <button id="FileSize" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">File Size</button>
               </span>
             </div>
           </div>         
@@ -88,7 +85,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
                 <input class="" type="date" id="" name="">
               </div>
               <span>
-                <button class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Increment Step</button>
+                <button id="IncrementStep" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Increment Step</button>
               </span>
             </div>
           </div>
@@ -97,13 +94,13 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <div style="margin: auto;">
             <div class="w3-center">
               <span>
-                <button class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Create Group</button>
+                <button id="CreateGroup" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Create Group</button>
               </span>
               <span>
-                <button class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Clear Groups</button>
+                <button id="ClearGroup" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Clear Groups</button>
               </span>
               <span>
-                <button class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Show Groups</button>
+                <button id="ShowGroups" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Show Groups</button>
               </span>
             </div>
           
@@ -129,9 +126,9 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
       <div class="w3-container w3-card w3-white">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Data View</h2>
-        <div class="w3-cell" style="">
+        <div class="w3-cell" style="padding-right: 1%;">
             <b for="">Data Overview</b>
-            <textarea id="" name="" rows="4" cols="50" style="width: 25vw;">
+            <textarea id="DataOverview" name="" rows="4" cols="50" style="width: 100%; height: 10%;">
                 At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
             </textarea>
           <hr>
@@ -139,7 +136,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <div class="w3-cell" style="">
             <b for="">Write Description</b>
 
-            <textarea id="" name="" rows="4" cols="50" style="width: 25vw;">
+            <textarea id="WriteDescription" name="" rows="4" cols="50" style="width: 100%; height: 10%">
                 At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
                 At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
                 At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
@@ -150,9 +147,9 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         </div>
         <div class="w3-cell">
             <div class="w3-container gp-btn-dataview">
-            <button class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 100%; font-size: small;">Tag</button>
-            <button class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 100%; font-size: small;">+ Group</button>
-            <button class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 100%; font-size: small;">Analytics</button>
+            <button id="Tag" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 100%; font-size: small;">Tag</button>
+            <button id="AddToGroup" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 100%; font-size: small;">+ Group</button>
+            <button id="Analytics" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 100%; font-size: small;">Analytics</button>
             </div>
         </div>
       </div>
@@ -167,11 +164,11 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </div>
 
 
-<div class="popupOuter">
-  <div class="popupInner">
+<div id="popupOuter" class="popupOuter">
+  <div id="popupInner" class="popupInner">
     <div class="popupInnerTop">
       <span class="popupInnerText"><h3>Title</h3></span>
-      <span class="btn-exit">x</span>
+      <span id="btn-exit" class="btn-exit">x</span>
     </div>
     <div class="popupInnerBody">
       <p>
@@ -232,7 +229,57 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
 </style>
 
+<script>
+  function openPopup() {
+    $("#popupOuter").css("display", "block");
+  }
+  
+  
+  function closeButton() {
+    $("#popupOuter").css("display", "none");
+  }
 
+  function updatDataOverview(temp) {
+    temp = temp.text();
+    $("#DataOverview").val(temp);
+  }
+  
+  $(document).ready(function(){
+  
+    $("#CreateGroup").click(function(){
+      openPopup();
+    });
+    $("#btn-exit").click(function(){
+      closeButton();
+    });
+
+
+    $(".vis-item").click(function(){
+      updatDataOverview($(this));
+    });
+
+    $(document).mouseup(function(e) 
+    {
+
+
+        var attr = $(this).attr('display');
+        if (attr != "none"){
+
+          var container = $("#popupInner");
+          // if the target of the click isn't the container nor a descendant of the container
+          if (!container.is(e.target) && container.has(e.target).length === 0) 
+          {
+            $("#popupOuter").hide();
+        }
+      }
+    });
+
+
+    
+
+  });
+  
+</script>
 
 <script>
 // DOM element where the Timeline will be attached
@@ -240,7 +287,7 @@ var container = document.getElementById("visualization");
 
 // Create a DataSet (allows two way data-binding)
 var items = new vis.DataSet([
-  { id: 1, content: "item 1", start: "2014-04-20" },
+  { id: 1, content: "item 1", start: "2014-04-20"},
   { id: 2, content: "item 2", start: "2014-04-14" },
   { id: 3, content: "item 3", start: "2014-04-18" },
   { id: 4, content: "item 4", start: "2014-04-16", end: "2014-04-19" },
@@ -254,9 +301,7 @@ var options = {};
 // Create a Timeline
 var timeline = new vis.Timeline(container, items, options);
 
-
-function closeButton () {
-  
-}
+console.log(timeline);
 
 </script>
+
