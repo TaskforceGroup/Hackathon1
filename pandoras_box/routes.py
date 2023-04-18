@@ -2,6 +2,9 @@ from flask import render_template
 
 from . import app
 
+# Import the database accessors
+from .db_services import *
+
 
 @app.route('/')
 def root():
@@ -20,17 +23,5 @@ def temp_sms_import():
 
 @app.route('/api/groups')
 def groups():
-    json = {
-        'groups': [
-                {'name': 'Group A', 'description': 'Dedicated to finding Nick guilty', 'data': [
-                    'look at stars', 'Eat donuts', 'Play LOL'
-                    ]
-                },
-                {'name': 'Group B with a longer name', 'description': 'Free food events', 'data': [
-                    'Going to Walmart', 'Went to gym', 'look at rocks'
-                    ]
-                }
-            ]
-        }
-    return json
+    return get_groups()
 
