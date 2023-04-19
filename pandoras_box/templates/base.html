@@ -198,10 +198,54 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   position: absolute;
   top: 4%;
 }
-
 </style>
 
 <script>
+  function displayGroupsInPopup() {
+    $.ajax({
+      url: '/api/groups',
+      type: 'GET',
+      dataType: 'json',
+      success: function(data) {
+        let groups = data.groups;
+        let content = '<div class="group-details">';
+        for (let group of groups) {
+          content += '<h3 class="group-name" data-group=\'' + JSON.stringify(group) + '\'>' + group.name + '</h3>';
+          content += '<div><h4>Description</h4><p>' + group.description + '</p>';
+          content += '<h4>Data</h4><ul>';
+          for (let dataItem of group.data) {
+            content += '<li>' + dataItem + '</li>';
+          }
+          content += '</ul></div>';
+        }
+        content += '</div>';
+        $('#innerBodyHeader p').html(content);
+        attachGroupNameClickEvents();
+      },
+      error: function(error) {
+        console.log('Error fetching group data:', error);
+      }
+    });
+  }
+
+  function attachGroupNameClickEvents() {
+    $('#innerBodyHeader').on('click', '.group-name', function() {
+      let groupElement = $(this).next();
+      if (groupElement.is(':visible')) {
+        groupElement.slideUp();
+      } else {
+        $('.group-details > div').slideUp(); // Close all other open group details
+        groupElement.slideDown();
+      }
+    });
+  }
+
+  $("#CreateGroup").click(function() {
+    openPopup();
+    displayGroupsInPopup();
+  });
+  
+  
   function openPopup() {
     $("#popupOuter").css("display", "block");
   }
@@ -217,6 +261,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   }
   
   $(document).ready(function(){
+
+    attachGroupNameClickEvents();
   
     $("#CreateGroup").click(function(){
       openPopup();
