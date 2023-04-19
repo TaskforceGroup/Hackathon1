@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<script
+  type="text/javascript"
+  src="https://unpkg.com/vis-timeline@latest/standalone/umd/vis-timeline-graph2d.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+</head>
+
+<!-- Navbar -->
+<div class="w3-top" style="position: static">
+    <div class="w3-bar w3-theme-d2 w3-left-align">
+     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+     <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Timeline</a>
+     <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Data Analytics</a>
+     <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Report</a>
+     <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Save</a>
+     <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Load</a>
+       <div class="w3-dropdown-hover w3-hide-small">
+       <button id="View" class="w3-button" title="">View <i class="fa fa-caret-down"></i></button>     
+       <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+         <a href="#" class="w3-bar-item w3-button">Link</a>
+         <a href="#" class="w3-bar-item w3-button">Link</a>
+         <a href="#" class="w3-bar-item w3-button">Link</a>
+       </div>
+     </div>
+     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+    </div>
+  </div> 
+
+<body class="w3-light-grey" style="">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:90%;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+        </div>
+        <div class="w3-container">
+
+          <p class="w3-large"><b><i class="fa fa-fw w3-margin-right w3-text-teal"></i>{% block SideBarHeader1 %}{% endblock %}</b></p>
+
+          <div style="margin: auto; padding-bottom: 5%;">
+            <div class="w3-center">
+                {% block SideBarSection1 %}{% endblock %}
+            </div>
+          </div>         
+
+          <p class="w3-large"><b><i class="fa fa-fw w3-margin-right w3-text-teal"></i>{% block SideBarHeader2 %}{% endblock %}</b></p>
+          <div style="margin: auto;">
+            <div class="w3-center" style="">
+                {% block SideBarSection2 %}{% endblock %}
+            </div>
+          </div>
+
+          <p class="w3-large"><b><i class="fa fa-fw w3-margin-right w3-text-teal"></i>{% block SideBarHeader3 %}{% endblock %}</b></p>
+          <div style="margin: auto;">
+            <div class="w3-center">
+                {% block SideBarSection3 %}{% endblock %}
+            </div>
+          
+
+
+          </div>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom" style="padding-bottom: 5%;">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>{% block MainAreaHeader %}{%endblock%}</h2>
+        <div class="w3-container">
+            {% block MainArea %}
+            {%endblock%}
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Data View</h2>
+        <div class="w3-cell" style="padding-right: 1%;">
+            <b for="">Data Overview</b>
+            <textarea id="DataOverview" name="" rows="4" cols="50" style="width: 100%; height: 10%;">
+                At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+            </textarea>
+          <hr>
+        </div>
+        <div class="w3-cell" style="">
+            <b for="">Write Description</b>
+
+            <textarea id="WriteDescription" name="" rows="4" cols="50" style="width: 100%; height: 10%">
+                At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+                At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+                At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+                At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+
+                At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+            </textarea>
+        </div>
+        <div class="w3-cell">
+            <div class="w3-container gp-btn-dataview">
+            <button id="Tag" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 100%; font-size: small;">Tag</button>
+            <button id="AddToGroup" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 100%; font-size: small;">+ Group</button>
+            <button id="Analytics" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 100%; font-size: small;">Analytics</button>
+            </div>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<div id="popupOuter" class="popupOuter">
+  <div id="popupInner" class="popupInner">
+    <div class="popupInnerTop">
+      <span class="popupInnerText"><h3>Title</h3></span>
+      <span id="btn-exit" class="btn-exit">x</span>
+    </div>
+    <div class="popupInnerBody">
+      <div id="innerBodyHeader">
+        <p>
+          test
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
+
+
+<style>
+.popupOuter {
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, .3);
+  display: none;
+}
+.popupInner {
+  position: absolute;
+  z-index: 200;
+  left: 5%;
+  right: 5%;
+  top: 5%;
+  bottom: 5%;
+  background-color: white;
+  border-radius: 3px;
+}
+.btn-exit {
+  cursor: pointer;
+  position: absolute;
+  top: 3%;
+  right: 0%;
+  padding: 12px 16px;
+  transform: translate(0%, -50%);
+  font-size: 40px;
+}
+
+.popupInnerText {
+  position: absolute;
+  left: 0%;
+  padding: 12px 16px;
+  transform: translate(0%, -50%);
+  top: 3%;
+  font-size: 20px;
+}
+
+.popupInnerBody {
+  position: absolute;
+  top: 4%;
+}
+
+</style>
+
+<script>
+  function openPopup() {
+    $("#popupOuter").css("display", "block");
+  }
+  
+  
+  function closeButton() {
+    $("#popupOuter").css("display", "none");
+  }
+
+  function updatDataOverview(temp) {
+    temp = temp.text();
+    $("#DataOverview").val(temp);
+  }
+  
+  $(document).ready(function(){
+  
+    $("#CreateGroup").click(function(){
+      openPopup();
+    });
+    $("#btn-exit").click(function(){
+      closeButton();
+    });
+
+
+    $(".vis-item").click(function(){
+      updatDataOverview($(this));
+    });
+
+    $(document).mouseup(function(e) 
+    {
+
+
+        var attr = $(this).attr('display');
+        if (attr != "none"){
+
+          var container = $("#popupInner");
+          // if the target of the click isn't the container nor a descendant of the container
+          if (!container.is(e.target) && container.has(e.target).length === 0) 
+          {
+            $("#popupOuter").hide();
+        }
+      }
+    });
+
+
+    
+
+  });
+  
+</script>
+
+
+{% block Javascript %}
+{% endblock %}
+
+
