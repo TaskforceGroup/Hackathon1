@@ -1,0 +1,94 @@
+<SQL query to create a fact_calls table>
+
+-- Creating a staging table for senders with call details
+WITH stg_senders AS (
+  SELECT call_id, call_date, call_time, length_seconds, status, calls.sender_id, name AS sender_name, username AS sender_username,
+  phone AS sender_phone
+  FROM senders
+  JOIN calls ON senders.sender_id = calls.sender_id),
+
+-- Creating a staging table for receivers with call details
+stg_receivers AS (
+  SELECT call_id AS call_id2, call_date AS call_date2, call_time AS call_time2, length_seconds AS length_seconds2, status AS status2, calls.receiver_id, 
+  name AS receiver_name, username AS receiver_username, phone AS receiver_phone
+  FROM receivers
+  JOIN calls ON receivers.receiver_id = calls.receiver_id),
+
+-- Joining both sender and receiver staging tables on call_id
+stg_calls AS (
+  SELECT *
+  FROM stg_senders
+  JOIN stg_receivers ON stg_receivers.call_id2 = stg_senders.call_id),
+
+-- Creating a dimension table for senders
+dim_senders AS (
+  SELECT DISTINCT sender_id, sender_name, sender_username, sender_phone
+  FROM stg_calls),
+
+-- Removing sender_name, sender_username, and sender_phone from the staging table
+stg_calls2 AS (
+  SELECT call_id, call_date, call_time, length_seconds, status, sender_id, call_date2, call_time2, length_seconds2, status2, receiver_id, receiver_name, receiver_username, 
+  receiver_phone
+  FROM stg_calls),
+
+-- Creating a dimension table for receivers
+dim_receivers AS (
+  SELECT DISTINCT receiver_id, receiver_name, receiver_username, receiver_phone
+  FROM stg_calls2),
+
+-- Removing receiver_name, receiver_username, and receiver_phone from the staging table
+stg_calls3 AS (
+  SELECT call_id, call_date, call_time, length_seconds, status, sender_id, receiver_id
+  FROM stg_calls2),
+
+-- Creating the fact_calls table by selecting required columns from the final staging table
+fact_calls AS (
+  SELECT call_id, call_date, call_time, length_seconds, status, sender_id, receiver_id
+  FROM stg_calls3)
+
+-- Selecting rows from the fact_calls table
+SELECT *
+FROM fact_calls
+LIMIT 5;
+
+
+<SQL query to create a dim_senders table>
+-- Creating a staging table for senders with call details and device information
+WITH stg_senders AS (
+  SELECT call_id, call_date, call_time, length_seconds, status, calls.sender_id, name AS sender_name, username AS sender_username,
+  phone AS sender_phone, product_name AS sender_product_name, software_version AS sender_software_version
+  FROM senders
+  JOIN calls ON senders.sender_id = calls.sender_id
+  JOIN devices ON senders.sender_id = devices.device_id),
+
+-- Creating the dim_call_senders table
+dim_call_senders AS (
+  SELECT DISTINCT call_id, sender_id, sender_name, sender_username, sender_phone, call_date, call_time, length_seconds, status,
+  sender_product_name, sender_software_version
+  FROM stg_senders)
+
+-- Selecting rows from the dim_call_senders table
+SELECT *
+FROM dim_call_senders
+LIMIT 5;
+
+
+<SQL query to create a dim_receivers table>
+-- Creating a staging table for receivers with call details and device information
+WITH stg_receivers AS (
+  SELECT call_id, call_date, call_time, length_seconds, status, calls.receiver_id, name AS receiver_name, username AS receiver_username,
+  phone AS receiver_phone, product_name AS receiver_product_name, software_version AS receiver_software_version
+  FROM receivers
+  JOIN calls ON receivers.receiver_id = calls.receiver_id
+  JOIN devices ON receivers.receiver_id = devices.device_id),
+
+-- Creating the dim_call_receivers table
+dim_call_receivers AS (
+  SELECT DISTINCT call_id, receiver_id, receiver_name, receiver_username, receiver_phone, call_date, call_time, length_seconds, status,
+  receiver_product_name, receiver_software_version
+  FROM stg_receivers)
+
+-- Selecting rows from the dim_call_receivers table
+SELECT *
+FROM dim_call_receivers
+LIMIT 5;
