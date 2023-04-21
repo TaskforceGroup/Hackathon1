@@ -17,7 +17,7 @@ def root():
 
 @app.route('/api/groups')
 def get_groups():
-    return db.get_groups()
+    return db.get_all_groups()
 
 
 @app.route('/api/new_group', methods=['GET', 'POST'])
@@ -26,5 +26,5 @@ def new_group():
     description = request.args.get('description')
     db.new_group(name, description)
     # Return all groups now that the new one has been added
-    return db.get_groups()
+    return db.get_all_groups()
 
