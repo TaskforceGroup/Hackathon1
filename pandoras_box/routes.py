@@ -1,7 +1,7 @@
 # Import the python packages
-from flask import render_template
+from flask import render_template, jsonify
 
-# Import the 
+# Import the app
 from . import app
 
 # Import the database accessors

@@ -14,6 +14,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   type="text/javascript"
   src="https://unpkg.com/vis-timeline@latest/standalone/umd/vis-timeline-graph2d.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <!-- Navbar -->
@@ -171,9 +172,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     </div>
     <div class="popupInnerBody">
       <div id="innerBodyHeader">
-        <p>
-          test
-        </p>
+        <div id="groups-container"></div>
       </div>
     </div>
   </div>
@@ -231,6 +230,49 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
 
 <script>
+  
+    function fetchData() {
+      $.ajax({
+        url: '/api/groups',
+        type: 'GET',
+        dataType: 'json',
+        success: function(data) {
+          let groups = data.groups;
+          let container = $('#groups-container');
+          container.html(''); // Empty the container
+  
+          groups.forEach((group, index) => {
+            let groupName = $('<h3></h3>').text(group.name);
+            let groupDescription = $('<p></p>').text(group.description);
+            let groupData = $('<ul></ul>').addClass('group-data').css('display', 'none');
+  
+            group.data.forEach(item => {
+              let listItem = $('<li></li>').text(item);
+              groupData.append(listItem);
+            });
+  
+            let groupContainer = $('<div></div>').addClass('group-container');
+            groupContainer.append(groupName);
+            groupContainer.append(groupDescription);
+            groupContainer.append(groupData);
+  
+            container.append(groupContainer);
+  
+            groupName.on('click', () => {
+              groupData.slideToggle(); // Show or hide the group data on group name click
+            });
+          });
+        },
+        error: function(err) {
+          console.error('Failed to fetch data:', err);
+        }
+      });
+    }
+  
+    $(document).ready(() => {
+      fetchData(); // Fetch the data when the page is loaded
+    });
+  
   function openPopup() {
     $("#popupOuter").css("display", "block");
   }

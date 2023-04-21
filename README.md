@@ -8,8 +8,4 @@ We are using Flask because it is very customizable and runs on Linux, MacOS and 
 
 See this tutorial on how to add more functionality to this program https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iv-database (Flask documentation can be sometimes hard to find so we should use the resource above to have a standard programming structure)
 
-How to run:
-Create a venv: python -m venv venv
 
-Run the local server (Windows in powershell): dev.ps1 
-Run the local server (Linux and MacOS): ./dev.sh
