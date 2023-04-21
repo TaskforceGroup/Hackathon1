@@ -9,7 +9,7 @@ Make sure to format the data from the database here to match
 """
 # create connection to sqlite database
 conn = duckdb.connect('hackathon.db')
-GROUPS = conn.sql('SELECT DISTINCT group_id, name FROM groups')
+groups = dict(conn.sql('SELECT DISTINCT group_id, name FROM groups').df())
 
 
 
@@ -17,7 +17,7 @@ def get_groups():
     """
     Get all of the groups in a structure like JSON
     """
-    return GROUPS
+    return groups
 
 def new_group(name, description):
     """
