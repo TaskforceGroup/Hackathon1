@@ -1,0 +1,107 @@
+-- Create the fact_device_history table
+CREATE TABLE fact_device_history (
+  device_id INT,
+  gps_date VARCHAR(255),
+  gps_time VARCHAR(255),
+  latitude INT,
+  longitude INT,
+  latitude_direction VARCHAR(15),
+  longitude_direction VARCHAR(15),
+  lock_date VARCHAR(255),
+  lock_time VARCHAR(255),
+  locked BOOLEAN,
+  power_date VARCHAR(255),
+  power_time VARCHAR(255),
+  powered_on BOOLEAN,
+  bt_connection_date VARCHAR(255),
+  bt_connection_time VARCHAR(255),
+  cb_connection_date VARCHAR(255),
+  cb_connection_time VARCHAR(255),
+  charge_date VARCHAR(255),
+  charge_time VARCHAR(255),
+  login_date VARCHAR(255),
+  login_time VARCHAR(255),
+  attempt_number INT,
+  successful BOOLEAN,
+  login_method VARCHAR(25),
+  contact_num INT,
+  first_name VARCHAR(50),
+  last_name VARCHAR(50),
+  date_added VARCHAR(255),
+  time_added VARCHAR(255),
+  home_phone VARCHAR(15),
+  cell_phone VARCHAR(15),
+  work_phone VARCHAR(15),
+  email VARCHAR(50),
+  on_body_date VARCHAR(255),
+  on_body_time VARCHAR(255),
+  on_body BOOLEAN
+);
+
+-- Insert location data
+INSERT INTO fact_device_history (
+  device_id, gps_date, gps_time, latitude, longitude, latitude_direction, longitude_direction
+)
+SELECT
+  device_id, gps_date, gps_time, latitude, longitude, latitude_direction, longitude_direction
+FROM location;
+
+INSERT INTO fact_device_history (
+  device_id, lock_date, lock_time, locked
+)
+SELECT
+  device_id, lock_date, lock_time, locked
+FROM lock_status;
+
+INSERT INTO fact_device_history (
+  device_id, power_date, power_time, powered_on
+)
+SELECT
+  device_id, power_date, power_time, powered_on
+FROM power_status;
+
+INSERT INTO fact_device_history (
+  device_id, bt_connection_date, bt_connection_time
+)
+SELECT
+  device_id, connection_date, connection_time
+FROM bluetooth_connection;
+
+INSERT INTO fact_device_history (
+  device_id, cb_connection_date, cb_connection_time
+)
+SELECT
+  device_id, connection_date, connection_time
+FROM cable_connection;
+
+INSERT INTO fact_device_history (
+  device_id, charge_date, charge_time
+)
+SELECT
+  device_id, charge_date, charge_time
+FROM charge_status;
+
+INSERT INTO fact_device_history (
+  device_id, login_date, login_time, attempt_number, successful, login_method
+)
+SELECT
+  device_id, login_date, login_time, attempt_number, successful, login_method
+FROM logins;
+
+INSERT INTO fact_device_history (
+  device_id, contact_num, first_name, last_name, date_added, time_added, home_phone, cell_phone, work_phone, email
+)
+SELECT
+  device_id, contact_num, first_name, last_name, date_added, time_added, home_phone, cell_phone, work_phone, email
+FROM contacts;
+
+INSERT INTO fact_device_history (
+  device_id, on_body_date, on_body_time, on_body
+)
+SELECT
+  device_id, on_body_date, on_body_time, on_body
+FROM on_body_status;
+
+
+
+
