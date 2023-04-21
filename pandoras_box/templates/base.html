@@ -232,6 +232,25 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       closeButton();
     });
 
+
+    $(document).mouseup(function(e) 
+    {
+
+
+        var attr = $(this).attr('display');
+        if (attr != "none"){
+
+          var container = $("#popupInner");
+          // if the target of the click isn't the container nor a descendant of the container
+          if (!container.is(e.target) && container.has(e.target).length === 0) 
+          {
+            $("#popupOuter").hide();
+        }
+      }
+    });
+
+
+
   }
 
   function attachGroupNameClickEvents() {
@@ -280,21 +299,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       updatDataOverview($(this));
     });
 
-    $(document).mouseup(function(e) 
-    {
-
-
-        var attr = $(this).attr('display');
-        if (attr != "none"){
-
-          var container = $("#popupInner");
-          // if the target of the click isn't the container nor a descendant of the container
-          if (!container.is(e.target) && container.has(e.target).length === 0) 
-          {
-            $("#popupOuter").hide();
-        }
-      }
-    });
 
 
     
