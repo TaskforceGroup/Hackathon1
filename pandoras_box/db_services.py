@@ -1,5 +1,6 @@
-# This is a function for getting things from and saving things to it
+# Import all necessary libraries
 import duckdb
+import pandas as pd
 """
 This file is for interacting with the database
 The dummy data will slowly get replaced as the database it built out
@@ -7,41 +8,23 @@ The following global vars will be deleted as we are able to interact with the da
 
 Make sure to format the data from the database here to match 
 """
-GROUPS = {
-    'groups': [
-            {'name': 'Group A', 'description': 'Dedicated to finding Nick guilty', 'data': [
-                    'look at stars', 'Eat donuts', 'Play LOL'
-                ]
-            },
-            {'name': 'Group B with a longer name', 'description': 'Free food events', 'data': [
-                    'Going to Walmart', 'Went to gym', 'look at rocks'
-                ]
-            }
-        ]
-    }
+# Convert OLTP Database to OLAP
+conn = duckdb.connect('hackathon.db')
 
 
 def get_all_groups():
-    return GROUPS
-
+    
+    query = conn.sql('SELECT DISTINCT group_id, name, description FROM groups').df()
+    return query.to_json()
 
 def get_groups_by_id(id=None):
-    """
-    Get all of the groups in a structure like JSON.
-    It should get the group with the particular ID if specified
-    """
-    return groups
+
+    query = conn.sql(f'SELECT DISTINCT group_id, name, description FROM groups WHERE group_id IN({id})')
+    return query.to_json()
 
 def new_group(name, description=None):
-    """
-    Add a group. Description can be blank.
-    """
-    GROUPS['groups'].append(
-            {'name': name, 'description': description, 'data': [] # No data yet
-            }
-        )
-
-
+    max_id = conn.sql('SELECT MAX(group_id) FROM groups')
+    conn.sql(f'''INSERT INTO groups VALUES({max_id+1}, '{name}', '{description}')''')
 """
 The whiteboard notes
 
