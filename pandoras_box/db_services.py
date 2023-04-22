@@ -7,24 +7,58 @@ The following global vars will be deleted as we are able to interact with the da
 
 Make sure to format the data from the database here to match 
 """
-# create connection to sqlite database
-conn = duckdb.connect('hackathon.db')
-GROUPS = conn.sql('SELECT DISTINCT group_id, name FROM groups')
+GROUPS = {
+    'groups': [
+            {'name': 'Group A', 'description': 'Dedicated to finding Nick guilty', 'data': [
+                    'look at stars', 'Eat donuts', 'Play LOL'
+                ]
+            },
+            {'name': 'Group B with a longer name', 'description': 'Free food events', 'data': [
+                    'Going to Walmart', 'Went to gym', 'look at rocks'
+                ]
+            }
+        ]
+    }
 
 
-
-def get_groups():
-    """
-    Get all of the groups in a structure like JSON
-    """
+def get_all_groups():
     return GROUPS
 
-def new_group(name, description):
+
+def get_groups_by_id(id=None):
     """
-    Add a group
+    Get all of the groups in a structure like JSON.
+    It should get the group with the particular ID if specified
     """
-    max_id = conn.sql('SELECT MAX(group_id) FROM groups')
-    group_occurrences = conn.sql(f'SELECT COUNT(group_id) FROM groups WHERE name = {name}')
-    conn.sql(f'INSERT INTO groups VALUES({max_id+1}, {name}, {description}, {group_occurrences+1})')
+    return groups
+
+def new_group(name, description=None):
+    """
+    Add a group. Description can be blank.
+    """
+    GROUPS['groups'].append(
+            {'name': name, 'description': description, 'data': [] # No data yet
+            }
+        )
 
 
+"""
+The whiteboard notes
+
+create group
+get_groups
+get_all_groups
+
+time_start
+time_end
+data_type
+data_size
+text_seen
+
+item -> description
+get_items (start_date, end_date, exact_date)
+
+edit_item(item_id, new_name=None, new_description=None
+add_item_to_group(item_id, group_id)
+
+"""
