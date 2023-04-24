@@ -75,22 +75,48 @@ Timeline
     
     // Create a DataSet (allows two way data-binding)
     var items = new vis.DataSet([
-      { id: 1, content: "item 1", start: "2014-04-20"},
+      { id: "SMS-1", content: "<span><span>item 1</span>", start: "2014-04-20", description:"sdfsd", style: "background-color: pink;", subgroup: "1"},
       { id: 2, content: "item 2", start: "2014-04-14" },
       { id: 3, content: "item 3", start: "2014-04-18" },
-      { id: 4, content: "item 4", start: "2014-04-16", end: "2014-04-19" },
-      { id: 5, content: "item 5", start: "2014-04-25" },
+      { id: "SMS-4", content: "item 4", start: "2014-04-16", end: "2014-04-19" },
+      { id: "SMS-5", content: "item 5", start: "2014-04-25" },
       { id: 6, content: "item 6", start: "2014-04-27", type: "point" },
     ]);
     
+
     // Configuration for the Timeline
     var options = {};
     
     // Create a Timeline
     var timeline = new vis.Timeline(container, items, options);
     
-    console.log(timeline);
+
+
+    var item = {
+      id: 9999, content: "AAAAAA", start: "2014-04-25"
+    };
+
+
+    items.add(item);
+    items.remove("SMS-5");
     
+    document.getElementById('visualization').onclick = function (event) {
+      var props = timeline.getEventProperties(event)
+      console.log(props);
+    }
+
+    //TO DO
+    //fuctions to add an remove items
+    //functions to create a new timeline and delete the old one
+    //fuction to spesify the time window of the timeline
+    //fuction to change the zoom of timline
+    //function that jumps to a place on the timeline
+    //function to update the Data Overview from timeline
+    //function to write a new description from timeline  
+    //function to update the Write Description
+    //fuction to create item ID from API
+    //color code each data
+
 </script>
 {% endblock %}
 
