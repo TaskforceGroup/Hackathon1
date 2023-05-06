@@ -2,69 +2,86 @@
 
 
 {% block SideBarHeader1 %}
+
 Base Filters
+
 {% endblock %}
 
+
 {% block SideBarSection1 %}
+
 <span>
-    <button id="ClearFilters" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Clear Filters</button>
-  </span>
-  <span>
-    <button id="DataType" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Data Type</button>
-  </span>
-  <span>
-    <button id="FileSize" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">File Size</button>
-  </span>
+  <button id="ClearFilters" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Clear Filters</button>
+</span>
+<span>
+  <button id="DataType" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Data Type</button>
+</span>
+<span>
+  <button id="FileSize" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">File Size</button>
+</span>
+
 {% endblock %}
         
 
 {% block SideBarHeader2 %}
+
 Date/Time Filters
+
 {% endblock %}
 
 
 {% block SideBarSection2 %}
+
 <div style="margin-bottom: 5px; width: 100%;">
-    <label class="" for="">Start Date:</label>
-    <input class="" type="date" id="" name="">
-  </div>
-  <div style="margin-bottom: 5px; width: 100%">
-    <label class="" for="">End Date:</label>
-    <input class="" type="date" id="" name="">
-  </div>
-  <div style="margin-bottom: 5px;">
-    <label class="" for="">Jump To:</label>
-    <input class="" type="date" id="" name="">
-  </div>
-  <span>
-    <button id="IncrementStep" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Increment Step</button>
-  </span>
+  <label class="" for="">Start Date:</label>
+  <input class="" type="date" id="" name="">
+</div>
+<div style="margin-bottom: 5px; width: 100%">
+  <label class="" for="">End Date:</label>
+  <input class="" type="date" id="" name="">
+</div>
+<div style="margin-bottom: 5px;">
+  <label class="" for="">Jump To:</label>
+  <input class="" type="date" id="" name="">
+</div>
+<span>
+  <button id="IncrementStep" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Increment Step</button>
+</span>
+
 {% endblock %}
 
 
 {% block SideBarHeader3 %}
+
 Groups
+
 {% endblock %}
+
 
 {% block SideBarSection3 %}
 <span>
-    <button id="CreateGroup" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Create Group</button>
-  </span>
-  <span>
-    <button id="ClearGroup" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Clear Groups</button>
-  </span>
-  <span>
-    <button id="ShowGroups" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Show Groups</button>
-  </span>
+  <button id="CreateGroup" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Create Group</button>
+</span>
+<span>
+  <button id="ClearGroup" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Clear Groups</button>
+</span>
+<span>
+  <button id="ShowGroups" class="w3-btn w3-teal w3-round" style="margin-bottom: 5px; width: 50%; font-size: small;">Show Groups</button>
+</span>
 {% endblock %}
 
 
 {% block MainAreaHeader %}
+
 Timeline
+
 {%endblock%}
 
+
 {% block MainArea %}
+
 <div id="visualization"></div>
+
 {%endblock%}
           
 
@@ -72,7 +89,7 @@ Timeline
 <script>
     // DOM element where the Timeline will be attached
     var container = document.getElementById("visualization");
-    
+
     // Create a DataSet (allows two way data-binding)
     var items = new vis.DataSet([
       { id: "SMS-1", content: "<span><span>item 1</span>", start: "2014-04-20", description:"sdfsd", style: "background-color: pink;", subgroup: "1"},
@@ -82,14 +99,13 @@ Timeline
       { id: "SMS-5", content: "item 5", start: "2014-04-25" },
       { id: 6, content: "item 6", start: "2014-04-27", type: "point" },
     ]);
-    
+
 
     // Configuration for the Timeline
     var options = {};
     
     // Create a Timeline
     var timeline = new vis.Timeline(container, items, options);
-    
 
 
     var item = {
