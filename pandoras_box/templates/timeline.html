@@ -25,15 +25,15 @@ Date/Time Filters
 
 {% block SideBarSection2 %}
 <div style="margin-bottom: 5px; width: 100%;">
-    <label class="" for="">Start Date:</label>
+    <label id="StartDate" class="" for="">Start Date:</label>
     <input class="" type="date" id="" name="">
   </div>
   <div style="margin-bottom: 5px; width: 100%">
-    <label class="" for="">End Date:</label>
+    <label id="EndDate" class="" for="">End Date:</label>
     <input class="" type="date" id="" name="">
   </div>
   <div style="margin-bottom: 5px;">
-    <label class="" for="">Jump To:</label>
+    <label id="JumpTo" class="" for="">Jump To:</label>
     <input class="" type="date" id="" name="">
   </div>
   <span>
@@ -91,6 +91,126 @@ Timeline
     
     console.log(timeline);
     
+
+  //general functions for buttons:
+  function All_API_Request() {
+    $.ajax({
+      url: '/api/all_data',
+      type: 'GET',
+      dataType: 'json',
+      success: function(data) {
+        let all_data = data.all_data;
+      },
+      error: function(error) {
+        console.log('Error fetching clear filters:', error);
+      }});
+      return all_data;
+  }
+
+  class Filter_Storage {
+    constructor()
+    {
+      this.time_filter = [];
+      this.group_filter = [];
+      this.type_filter = [];
+      this.size_filter = [];
+    }
+  }
+
+  var filter_Storage = new Filter_Storage;
+
+  function All_API_Request() {
+    var queryString = `/api/query_data?time_filter=
+    ${JSON.stringify(filter_Storage.time_filter)}&group_filter=
+    ${JSON.stringify(filter_Storage.group_filter)}&type_filter=
+    ${JSON.stringify(filter_Storage.type_filter)}&size_filter=
+    ${JSON.stringify(filter_Storage.size_filter)}`;
+
+    $.ajax({
+      
+      url: queryString,
+      type: 'GET',
+      dataType: 'json',
+      success: function(data) {
+        let all_data = data.all_data;
+      },
+      error: function(error) {
+        console.log('Error fetching clear filters:', error);
+      }});
+      return all_data;
+  }
+
+    //functions for buttons:
+
+
+
+    $("#ClearFilters").click(function(){
+      $.ajax({
+      url: '/api/clear_filters',
+      type: 'GET',
+      dataType: 'json',
+      success: function(data) {
+        let groups = data.all_data;
+      },
+      error: function(error) {
+        console.log('Error fetching clear filters:', error);
+      }});
+    });
+
+    $("#DataType").click(function(){
+      $.ajax({
+      url: '/api/clear_filters',
+      type: 'GET',
+      dataType: 'json',
+      success: function(data) {
+        let groups = data.all_data;
+      },
+      error: function(error) {
+        console.log('Error fetching clear filters:', error);
+      }});
+    });
+
+    $("#FileSize").click(function(){
+      $.ajax({
+      url: '/api/clear_filters',
+      type: 'GET',
+      dataType: 'json',
+      success: function(data) {
+        let groups = data.all_data;
+      },
+      error: function(error) {
+        console.log('Error fetching clear filters:', error);
+      }});
+    });
+
+    $("#IncrementStep").click(function(){
+      
+    });
+
+    $("#ClearGroup").click(function(){
+      
+    });
+    
+    $("#Tag").click(function(){
+      
+    });
+
+    $("#AddToGroup").click(function(){
+      $.ajax({
+      url: '/api/add_to_group',
+      type: 'POST',
+      dataType: 'json',
+      success: function(data) {
+        let groups = data.all_data;
+      },
+      error: function(error) {
+        console.log('Error fetching clear filters:', error);
+      }});
+    });
+
+    $("#Analytics").click(function(){
+      
+    });
 </script>
 {% endblock %}
 
