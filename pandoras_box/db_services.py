@@ -1,6 +1,6 @@
 # Import all necessary libraries
 import duckdb
-import pandas as pd
+# import pandas as pd
 """
 This file is for interacting with the database
 The dummy data will slowly get replaced as the database it built out
@@ -13,7 +13,7 @@ conn = duckdb.connect('hackathon.db')
 
 
 def get_all_groups():
-    
+
     query = conn.sql('SELECT DISTINCT group_id, name, description FROM groups').df()
     return query.to_json()
 
